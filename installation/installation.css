@@ -6,6 +6,8 @@
 body{
     background-color: rgb(239, 245, 247);
     font-family: 'EB Garamond', serif;
+    font-size: large;
+
 
  
 }
@@ -15,6 +17,17 @@ body{
     margin-right: 2rem;
     margin-top: 0px;
     
+
+}
+h1 {
+    color: rgb(212, 45, 45);
+}
+h2{
+    color: rgb(212, 45, 45);
+
+}
+h3{
+    color: rgb(212, 45, 45);
 
 }
 
@@ -59,6 +72,10 @@ label{
 
 
 
+
+
+
+
 /* ********************LEFT FEILD ******** */
 
 
@@ -97,10 +114,28 @@ margin-top: 0%;
 .content-div{
     margin: auto;
     padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 0px;
 
 }
 .information-div{
-    margin-top: 3rem;
+    margin-top: 0rem;
  
+}
+
+
+
+
+p{
+    font-size: x-large;
+}
+
+
+/* *******************text area ******** */
+
+.text-area{
+    margin-top: 2rem;
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+    color: bisque;
 }
