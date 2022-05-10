@@ -1,8 +1,14 @@
 /* *****************nav*********************** */
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
+
+
 
 body{
     background-color: antiquewhite;
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+
  
 }
 .nav-heading{
@@ -14,10 +20,14 @@ body{
 
 }
 
+h1{
+    color: rgb(212, 45, 45);
+}
 .header{
  
 
     display: flex;
+    position: fixed;
 
    
    
@@ -66,6 +76,7 @@ label{
     display: grid;
     grid-template-columns: 0.3fr 1fr 0.3fr;
     column-gap: 5rem ;
+    
    
 }
 
@@ -80,6 +91,7 @@ label{
  
     list-style: none;
     position: fixed;
+    top: 4rem;
   
 }
 
@@ -88,13 +100,74 @@ label{
 margin-top: 0%;
 
 }
+
 .content-div{
-    margin: auto;
-    padding: 2rem;
-    margin-top: 1rem;
+   
+    margin-top: 4rem;
 
 }
-.information-div{
-    margin-top: 3rem;
- 
+
+
+p{
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+/* ****************alert1 box div************ */
+#error-alert-button{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+
+}
+#warning-alert-button{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+
+}
+#info-alert-button{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+
+}
+#success-alert-button{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+
+}
+.alert1-container{
+    display: flex;
+}
+.alert-types{
+    font-size: xx-large;
+}
+#output1-div{
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(204, 51, 51);
+}
+#output2-div{
+    font-size: xx-large;
+    color: black;
+    background-color: yellow;
+}
+#output3-div{
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(50, 50, 226);
+}
+#output4-div{
+    font-size: xx-large;
+    color: white;
+    background-color: green;
 }

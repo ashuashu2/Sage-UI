@@ -1,10 +1,17 @@
 /* *****************nav*********************** */
 
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
+
+
+
 body{
     background-color: antiquewhite;
+    font-family: 'EB Garamond', serif;
+
  
 }
+
 .nav-heading{
     font-size: 2.5rem;
     color: rgb(212, 45, 45);
@@ -80,6 +87,8 @@ label{
  
     list-style: none;
     position: fixed;
+    top: 4rem;
+
   
 }
 
