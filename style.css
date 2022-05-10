@@ -1,0 +1,95 @@
+body{
+    background-color: antiquewhite;
+    max-width: 100%;
+}
+.nav-heading{
+    font-size: 2.5rem;
+    color: rgb(212, 45, 45);
+    margin-right: 2rem;
+    margin-top: 0px;
+
+}
+.header{
+    display: flex;
+   
+   
+}
+
+
+
+
+.list-item{
+    margin-left: auto;
+}
+label{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+}
+
+
+
+.flex{
+    display: flex;
+    font-size: x-large;
+  
+    
+}
+.hero{
+    margin: auto;
+    
+    
+    
+}
+
+.banner-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    margin: auto;
+    margin-top: 8rem;
+
+    
+}
+.list{
+    margin: 1rem;
+    font-size: xx-large;
+    list-style: none;
+    display: inline;
+   
+ 
+    
+}
+.form{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.nav-links{
+    color: rgb(212, 45, 45);
+
+    
+    text-decoration: none;
+    margin-bottom: 2rem;
+} 
+h2{
+    text-align: center;
+
+}
+
+.buttonstarted{
+    background-color:; 
+   font-size: x-large;
+   margin-top: 3rem;
+   border: solid black;
+   
+}
+.get-started{
+    color: rgb(212, 45, 45);;
+}
+.small-container{
+    margin-bottom: 1rem; 
+    margin-right: 10rem;
+    font-size: xx-large;
+    max-width: 50%;
+}

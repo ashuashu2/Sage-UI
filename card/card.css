@@ -1,0 +1,100 @@
+/* *****************nav*********************** */
+
+
+body{
+    background-color: antiquewhite;
+ 
+}
+.nav-heading{
+    font-size: 2.5rem;
+    color: rgb(212, 45, 45);
+    margin-right: 2rem;
+    margin-top: 0px;
+    
+
+}
+
+.header{
+ 
+
+    display: flex;
+
+   
+   
+}
+
+.list-item{
+    margin-left: auto;
+}
+label{
+    font-size: x-large;
+    color: rgb(212, 45, 45);
+
+}
+.list{
+    margin: 1rem;
+    font-size: xx-large;
+    list-style: none;
+    display: inline;
+   
+ 
+    
+}
+.nav-links{
+    color: rgb(212, 45, 45);
+
+    
+    text-decoration: none;
+    margin-bottom: 2rem;
+} 
+.form{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+
+
+
+/* ********************LEFT FEILD ******** */
+
+
+
+
+
+.main-div{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    column-gap: 5rem ;
+   
+}
+
+.link-items{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: brown;
+
+    
+}
+.unorder{
+ 
+    list-style: none;
+    position: fixed;
+  
+}
+
+.links-div{
+  
+margin-top: 0%;
+
+}
+.content-div{
+    margin: auto;
+    padding: 2rem;
+    margin-top: 1rem;
+
+}
+.information-div{
+    margin-top: 3rem;
+ 
+}
