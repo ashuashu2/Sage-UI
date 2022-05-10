@@ -20,14 +20,18 @@ body{
 
 }
 
-h1{
+h1 {
     color: rgb(212, 45, 45);
+}
+h2{
+    color: rgb(212, 45, 45);
+
 }
 .header{
  
 
     display: flex;
-    position: fixed;
+    /* position: fixed; */
 
    
    
@@ -111,6 +115,13 @@ margin-top: 0%;
 p{
     font-size: x-large;
 }
+.text-area{
+    margin-top: 2rem;
+    width: 90%;
+    height: 50vh;
+    background-color: black;
+    color: bisque;
+}
 
 
 
@@ -145,6 +156,11 @@ p{
 
 
 }
+.alert-lines{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
 .alert1-container{
     display: flex;
 }
@@ -170,4 +186,35 @@ p{
     font-size: xx-large;
     color: white;
     background-color: green;
+}
+.alert2-lines{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+#alert2-lines-1{
+    background-color: chocolate;
+
+}
+#alert2-lines-2 {
+    background-color: green;
+
+   
+    
+}
+#alert2-lines-3{
+    background-color: rgb(50, 50, 226);
+
+    
+}
+#alert2-lines-4{
+    background-color: yellow;
+
+    
+}
+#alert2-lines-5{
+    background-color: rgb(204, 51, 51);
+
+    
 }
