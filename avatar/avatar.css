@@ -7,8 +7,9 @@
 
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(239, 245, 247);
     font-family: 'EB Garamond', serif;
+    font-size: large;
 
  
 }
@@ -19,6 +20,18 @@ body{
     margin-right: 2rem;
     margin-top: 0px;
     
+
+}
+
+h1 {
+    color: rgb(212, 45, 45);
+}
+h2{
+    color: rgb(212, 45, 45);
+
+}
+h3{
+    color: rgb(212, 45, 45);
 
 }
 
@@ -104,7 +117,25 @@ margin-top: 0%;
     margin-top: 1rem;
 
 }
-.information-div{
-    margin-top: 3rem;
- 
+/* .information-div{
+    border: 1px solid rgb(224, 38, 38);
+    height: 50vh;
+    padding: 1rem;
+    position: fixed;
+    right: 0px;
+
+} */
+p{
+    font-size: x-large;
+}
+
+
+/* *******************text area ******** */
+
+.text-area{
+    margin-top: 2rem;
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+    color: bisque;
 }

@@ -133,9 +133,28 @@ p{
 /* *******************text area ******** */
 
 .text-area{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 90%;
     height: 10vh;
     background-color: black;
     color: bisque;
+}
+
+/* ***************arrow button************ */
+
+.arrow-button-1{
+    font-size: 2rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+   
+}
+.arrow-button-2{
+    font-size: 2rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
+
+   
 }

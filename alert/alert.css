@@ -241,17 +241,22 @@ p{
     font-size: 2rem;
     left: 0px;
     color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
    
 }
 .arrow-button-2{
     font-size: 2rem;
     right: 0px;
     color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
 
    
 }
 .arrow-button-container{
   margin-top: 3rem;
   margin-bottom: 3rem;
+
   
 }
