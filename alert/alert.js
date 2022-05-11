@@ -11,19 +11,19 @@ var output3Div = document.querySelector("#output3-div");
 var output4Div = document.querySelector("#output4-div");
 
 
-var a= 0
+// var a= 0
 
-function btnHandler(){
-    if (a==1){ 
-    document.getElementById("unorder").style.display="inline";
-    return a=0;
-}else{
-    document.getElementById("unorder").style.display= "none"
-    return a=1;
+// function btnHandler(){
+//     if (a==1){ 
+//     document.getElementById("unorder").style.display="inline";
+//     return a=0;
+// }else{
+//     document.getElementById("unorder").style.display= "none"
+//     return a=1;
 
    
-}
-}
+// }
+// }
 
 
 
