@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
 
-
-
+@import"./alert/alert.css"
 body{
     background-color: antiquewhite;
     max-width: 100%;
     font-family: 'EB Garamond', serif;
 
     
-}
+} 
 .nav-heading{
     font-size: 2.5rem;
     color: rgb(212, 45, 45);
@@ -108,3 +107,38 @@ h2{
    
 
 }
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    .flex{
+        size: 0rem;
+        height: 10vh;
+        width: 100px;
+    }
+    #image{
+      max-width: 50px;
+       
+
+    }
+    .hero{
+        margin-top: 10rem;
+        margin-right: 15rem;
+        max-width: 200px;
+        
+    }
+    .banner-heading{
+        margin-left: 25rem; 
+        
+        
+    }
+    .small-container{
+        max-width: 100px;
+    }
+ 
