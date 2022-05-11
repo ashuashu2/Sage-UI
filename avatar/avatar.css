@@ -97,7 +97,7 @@ label{
 
     
 }
-.unorder{
+#unorder{
  
     list-style: none;
     position: fixed;
@@ -153,8 +153,8 @@ p{
 /* ****************right side information div************ */
 .information-div{
     border: 1px solid rgb(224, 38, 38);
-    height: 50vh;
-    width: 10%;
+    height: 60vh;
+    width: 15%;
     padding: 1rem;
     position: fixed;
     right: 0px;
@@ -339,6 +339,7 @@ p{
  
         list-style: none;
         position: relative;
+        
       
       
         /* top: 4rem; */
@@ -356,6 +357,16 @@ p{
     .content-div{
         margin: 8rem;
     }
+
+
+
+
+
+
+
+
+/* *******************p ******** */
+
 
 
 
