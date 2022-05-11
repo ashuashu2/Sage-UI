@@ -283,14 +283,22 @@ p{
  
         list-style: none;
         position: relative;
-        ;
- 
+      
       
         /* top: 4rem; */
       
     }
+    .links-div{
+       margin: -5rem;
+       
+
+    }
     .link-items{
         font-size: larger;
+       
+    }
+    .content-div{
+        margin: 8rem;
     }
 
 

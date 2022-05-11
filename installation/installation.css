@@ -190,10 +190,18 @@ p{
 
 
 
-
+    .links-div{
+        margin: -5rem;
+        
+ 
+     }
 
 
 .information-div{
     visibility: hidden;
 }
+.content-div{
+    margin: 8rem;
+}
+
 }
