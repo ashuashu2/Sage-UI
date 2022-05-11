@@ -9,6 +9,7 @@ body{
     font-family: 'EB Garamond', serif;
     font-size: large;
 
+    
  
 }
 .nav-heading{
@@ -85,6 +86,7 @@ label{
     grid-template-columns: 0.3fr 1fr 0.3fr;
     column-gap: 5rem ;
     
+    
    
 }
 
@@ -112,6 +114,8 @@ margin-top: 0%;
 .content-div{
    
     margin-top: 0rem;
+    
+    
 
 }
 
@@ -260,3 +264,33 @@ p{
 
   
 }
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    .unorder{
+      
+   visibility: hidden;
+    }
+    .content-div{
+       
+    }
+  
+
+
+
+
+
+
+
+.information-div{
+    visibility: hidden;
+}
+}
+   
