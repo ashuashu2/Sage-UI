@@ -14,7 +14,7 @@
         <div class="header">
             <h1 class="nav-heading"> 📚 <span> A component liabrary</span></h1>
             <form class="form">
-                <label class="search">Search Components:</label>
+                <label class="search"> <strong>Search Components:</strong> </label>
                 <input type="search">
                 <input type="submit">
             </form>
@@ -32,7 +32,7 @@
     </nav> 
     <div class="main-div">    
     <div class="links-div">
-        <ul class="unorder">
+        <ul id="unorder">
             
             <li><a class="link-items" href="../installation/installation.html">Installation</a></li>
            
@@ -58,13 +58,220 @@
         </ul>
     </div>
     <div class="content-div">
+        <h1>Button</h1>
+        <hr>
+        <p>Buttons allow users to take actions, and make choices, with a single tap.</p>
+        <p>Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:</p>
+
+        <p>1.Modal windows ,
+            2.Forms,
+            3.Cards,
+            4.Toolbars</p>
+            <hr>
+
+            <h1>1.Basic Button</h1>
+            <p>The <Button>button</Button> comes with three variants: text (default), contained, and outlined.</p>
+
+            <div class="basic-button-container">
+                <button class="text-button">Text</button>
+                <button  class="contained-button">Contained</button>
+                <button  class="outlined-button">Outlined</button>
+
+            </div>
+
+
+            <textarea name="" id="" cols="30" rows="10" class="text-area">
+                <div class="basic-button-container">
+                    <button class="text-button">Text</button>
+                    <button  class="contained-button">Contained</button>
+                    <button  class="outlined-button">Outlined</button>
+    
+                </div>
+            </textarea>
+
+            <h3>1.text button</h3>
+            <p>Text buttons are typically used for less-pronounced actions, including those located: in dialogs, in cards. In cards, text buttons help maintain an emphasis on card content.</p>
+            <hr>
+
+
+            <h3>2.contained button</h3>
+            <p>Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+
+            </p>
+            <hr>
+
+            <h3>3.outlined button</h3>
+            <p>Outlined buttons are medium-emphasis buttons. They contain actions that are important but aren't the primary action in an app.</p>
+            <p>Outlined buttons are also a lower emphasis alternative to contained buttons, or a higher emphasis alternative to text buttons.</p>
+            <hr>
+
+
+            <h1>2. Different sizes of Button</h1>
+            <p>Ant Design supports a default button size as well as a large and small size. If a large or small button is desired, set the size property to either large or small respectively. Omit the size property for a button with the default size.</p>
+
+            <div class="basic-button-container">
+               
+                <button class="small-button">small</button>
+                <button  class="large-button">large</button>
+                <button  class="xx-large-button">xx-large</button>
+            </div>
+
+
+
+            <textarea name="" id="" cols="30" rows="10" class="text-area">
+                <div class="basic-button-container">
+               
+                    <button class="small-button">small</button>
+                    <button  class="large-button">large</button>
+                    <button  class="xx-large-button">xx-large</button>
+                </div>
+    
+            </textarea>
+            <h1>3.Link Button</h1>
+            <p>Use the LinkButton control to create a hyperlink-style button on the Web page. The LinkButton control has the same appearance as a HyperLink control, but has the same functionality as a Button control. If you want to link to another Web page when the control is clicked, consider using the HyperLink control.</p>
+            <hr>
+            <div class="basic-button-container">
+                <button class="facebook-link-button"><a class="facebook" href="https://www.facebook.com/">Facebook</a></button>
+                <button class="instagram-link-button"><a class="instagram" href="https://www.instagram.com/">Instagram</a></button>
+            </div>
+
+            <h3>touch these button to go to facebook.com or instagram.com</h3>
+            <textarea name="" id="" cols="30" rows="10" class="text-area">
+                <div class="basic-button-container">
+                    <button class="facebook-link-button"><a class="facebook" href="https://www.facebook.com/">Facebook</a></button>
+                    <button class="instagram-link-button"><a class="instagram" href="https://www.instagram.com/">Instagram</a></button>
+                </div>
+            </textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <h1>4.Different Colors of Buttons</h1>
+            <p>Buttons having different Color shows different meaning</p>
+            <p>Change the background color of a button with the background-color property:</p>
+            <hr>
+
+            <div id="basic-button-container">
+
+                <button class="green-button">Green</button>
+                <button  class="red-button">Red</button>
+                <button  class="yellow-button">Yellow</button>
+                <button class="blue-button">Blue</button>
+            </div>
+
+            <TExtarea class="text-area">
+                <div id="basic-button-container">
+
+                    <button class="green-button">Green</button>
+                    <button  class="red-button">Red</button>
+                    <button  class="yellow-button">Yellow</button>
+                    <button class="blue-button">Blue</button>
+                </div>
+            </TExtarea>
+
+            <p> Green = Success: used for actions which is successfully done.</p>
+            <p>  Red =   Danger: used for actions of risk, like deletion or authorization.</p>
+            <p>yellow= Warning: used for action of warning</p>
+            <p> Blue= Info: used for action of information,like receiving of new message</p>
+            <hr>
+            <hr>
+            <h1>5.Icon Buttons</h1>
+            <p>An icon button is a picture printed on a Material widget that reacts to touches by filling with color (ink).
+
+                Icon buttons are commonly used in the AppBar.actions field, but they can be used in many other places as well.
+                
+                If the onPressed callback is null, then the button will be disabled and will not react to touch.</p>
+                <div class="basic-button-container">
+                    <button class="icon-button"><a  href="https://www.instagram.com/"> <img src="../images/icons8-instagram-48.png" alt=""> </a></button>
+
+                    <button class="icon-button"><a class="whatsapp"  href="https://www.whatsapp.com/"> <img  src="../images/icons8-whatsapp-16.png" alt=""></a></button>
+
+                    <button class="icon-button"><a  href="https://www.facebook.com/"> <img src="../images/icons8-facebook-48.png" alt=""></a></button>
+
+                    <button class="icon-button"><a class="telegram-icon" href="https://www.telegram.com/"> <img class="telegram-icon" src="../images/icons8-telegram-app-48.png" alt=""></a></button>
+
+                    <button class="icon-button"><a  href="https://www.lightstalking.com/"> <img src="../images/icons8-camera-50.png"></a></button>
+
+                    <button class="icon-button"><a  href="https://forums.tomsguide.com/"> <img src="../images/icons8-new-message-48.png" alt=""></a></button>
+
+                    <button class="icon-button"><a  href="https://www.merriam-webster.com/"> <img src="../images/icons8-delete-48.png" alt=""></a></button>
+
+               </div>
+
+                <textarea name="" id="" cols="30" rows="10" class="text-area">
+                    <div class="basic-button-container">
+                        <button class="icon-button"><a  href="https://www.instagram.com/"> <img src="../images/icons8-instagram-48.png" alt=""> </a></button>
+    
+                        <button class="icon-button"><a class="whatsapp"  href="https://www.whatsapp.com/"> <img  src="../images/icons8-whatsapp-16.png" alt=""></a></button>
+    
+                        <button class="icon-button"><a  href="https://www.facebook.com/"> <img src="../images/icons8-facebook-48.png" alt=""></a></button>
+    
+                        <button class="icon-button"><a class="telegram-icon" href="https://www.telegram.com/"> <img class="telegram-icon" src="../images/icons8-telegram-app-48.png" alt=""></a></button>
+    
+                        <button class="icon-button"><a  href="https://www.lightstalking.com/"> <img src="../images/icons8-camera-50.png"></a></button>
+    
+                        <button class="icon-button"><a  href="https://forums.tomsguide.com/"> <img src="../images/icons8-new-message-48.png" alt=""></a></button>
+    
+                        <button class="icon-button"><a  href="https://www.merriam-webster.com/"> <img src="../images/icons8-delete-48.png" alt=""></a></button>
+    
+                   </div>
+
+
+                </textarea>
+
+
+
+
+                <div class="arrow-button-container">
+
+                    <button ><a  class="arrow-button-1" href="../badge/badge.html"> < Badge</a> </button>
+                    <button ><a  class="arrow-button-2"href="../card/card.html">Card></a>   </button>
+            
+                   </div>
  
 
+
+
+
+
+
+
+    </div>
+    <div class="information-div">
+
+
+
+        <h2>what?</h2>
+    <h3>Introduction</h3>
+    <h3>1.Basic Button</h3>
+    <h3>2.Different sizes  Button</h3>
+    <h3>3.Link button</h3>
+    <h3>4.Diff Colors of Buttons</h3>
+    <h3>5.Icon Buttons</h3>
+
+
     </div>
 
-    <div class="information-div">
-      
-    </div>
+
+
     </div>
 
 
