@@ -37,6 +37,7 @@ h3{
 
     display: flex;
    
+   
 
    
    
@@ -97,12 +98,16 @@ label{
 
     
 }
-.unorder{
+#unorder{
  
     list-style: none;
     position: fixed;
     top: 4rem;
   
+}
+#btn{
+    visibility: hidden;
+
 }
 
 .links-div{
@@ -274,14 +279,19 @@ p{
     html{
         font-size: 50%;
     }
-    .unorder{
+    #unorder{
+ 
+        list-style: none;
+        position: relative;
+        ;
+ 
       
-   visibility: hidden;
+        /* top: 4rem; */
+      
     }
-    .content-div{
-       
+    .link-items{
+        font-size: larger;
     }
-  
 
 
 

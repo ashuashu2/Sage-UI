@@ -1,4 +1,5 @@
 /* *****************nav*********************** */
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
 
 
@@ -97,7 +98,7 @@ label{
 
     
 }
-.unorder{
+#unorder{
    
  
     list-style: none;
@@ -157,4 +158,42 @@ p{
 
 
    
+}
+
+
+
+
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    #unorder{
+ 
+        list-style: none;
+        position: relative;
+        ;
+ 
+      
+        /* top: 4rem; */
+      
+    }
+    .link-items{
+        font-size: larger;
+    }
+
+
+
+
+
+
+
+.information-div{
+    visibility: hidden;
+}
 }

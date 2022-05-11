@@ -1,3 +1,6 @@
+
+
+
 var errorAlert = document.querySelector("#error-alert-button");
 var warningAlert = document.querySelector("#warning-alert-button");
 var infoAlert = document.querySelector("#info-alert-button");
@@ -6,6 +9,23 @@ var output1Div = document.querySelector("#output1-div");
 var output2Div = document.querySelector("#output2-div");
 var output3Div = document.querySelector("#output3-div");
 var output4Div = document.querySelector("#output4-div");
+
+
+var a= 0
+
+function btnHandler(){
+    if (a==1){ 
+    document.getElementById("unorder").style.display="inline";
+    return a=0;
+}else{
+    document.getElementById("unorder").style.display= "none"
+    return a=1;
+
+   
+}
+}
+
+
 
 
 
