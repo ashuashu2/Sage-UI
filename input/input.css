@@ -5,11 +5,94 @@
 
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(239, 245, 247);
     font-family: 'EB Garamond', serif;
+    font-size: large;
 
  
-} 
+}
+
+.nav-heading{
+    font-size: 2.5rem;
+    color: rgb(212, 45, 45);
+    margin-right: 2rem;
+    margin-top: 0px;
+    
+
+}
+
+h1 {
+    color: rgb(212, 45, 45);
+}
+h2{
+    color: rgb(212, 45, 45);
+
+}
+h3{
+    color: rgb(212, 45, 45);
+
+}
+p{
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+/* ****************right side information div************ */
+.information-div{
+    border: 1px solid rgb(224, 38, 38);
+    height: 60vh;
+    width: 15%;
+    padding: 1rem;
+    position: fixed;
+    right: 0px;
+
+
+
+
+}
+/* ****************text area************ */
+
+.text-area{
+    margin-top: 2rem;
+    width: 85%;
+    height: 25vh;
+    background-color: black;
+    color: bisque;
+}
+
+
+/* ***************arrow button************ */
+
+.arrow-button-1{
+    font-size: 2rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
+   
+}
+.arrow-button-2{
+    font-size: 2rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
+
+   
+}
+.arrow-button-container{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  
+}
+
+
 .nav-heading{
     font-size: 2.5rem;
     color: rgb(212, 45, 45);
@@ -81,7 +164,7 @@ label{
 
     
 }
-.unorder{
+#unorder{
  
     list-style: none;
     position: fixed;
@@ -96,12 +179,186 @@ margin-top: 0%;
 
 }
 .content-div{
-    margin: auto;
-    padding: 2rem;
-    margin-top: 1rem;
+ margin: 0rem;
+}
+
+
+
+/* *************    sign -in - form   ***************** */
+
+
+.sign-in-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 30vh;
+    width: 50%;
+}
+
+
+
+/* *************    sign -up - form   ***************** */
+
+
+.sign-up-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 70vh;
+    width: 70%;
+}
+
+
+
+/* *************   validation form  ***************** */
+
+
+.validation-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 40vh;
+    width: 40%;
+}
+
+
+
+
+/* *************  different types of input  ***************** */
+
+
+.types-input{
+    border: 2px solid black ;
+    display: grid;
+    
+    height: 90vh;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    #unorder{
+ 
+        list-style: none;
+        position: relative;
+
+      
+      
+        /* top: 4rem; */
+      
+    }
+    .links-div{
+       margin: -5rem;
+       
+
+    }
+    .link-items{
+        font-size: larger;
+       
+    }
+    .content-div{
+        margin: 8rem;
+    }
+
+
+
+.information-div{
+    visibility: hidden;
+}
+
+
+
+
+/* *************    sign -in - form   ***************** */
+
+
+.sign-in-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 40vh;
+    width: 90%;
+}
+
+
+
+/* *************    sign -up - form   ***************** */
+
+
+.sign-up-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80vh;
+    width: 90%;
+}
+
+
+
+/* *************   validation form  ***************** */
+
+
+.validation-form{
+    border: 2px solid black ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 45vh;
+    width: 90%;
+}
+
+
+
+
+/* *************  different types of input  ***************** */
+
+
+.types-input{
+    border: 2px solid black ;
+    display: grid;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
 
 }
-.information-div{
-    margin-top: 3rem;
- 
-}
+   

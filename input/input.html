@@ -14,7 +14,7 @@
         <div class="header">
             <h1 class="nav-heading"> 📚 <span> A component liabrary</span></h1>
             <form class="form">
-                <label class="search">Search Components:</label>
+                <label class="search"><strong>Search Components:</strong> </label>
                 <input type="search">
                 <input type="submit">
             </form>
@@ -29,43 +29,228 @@
 
             </ul>
         </div>
-    </nav> 
-    <div class="main-div">    
-    <div class="links-div">
-        <ul class="unorder">
-            
-            <li><a class="link-items" href="../installation/installation.html">Installation</a></li>
-           
+    </nav>
+    <div class="main-div">
+        <div class="links-div">
+            <ul id="unorder">
+
+                <li><a class="link-items" href="../installation/installation.html">Installation</a></li>
+
+                <hr>
+
+
+                <li><a class="link-items" href="../avatar/avatar.html">1.Avatar</a></li>
+                <li><a class="link-items" href="../alert/alert.html">2.Alert</a></li>
+                <li><a class="link-items" href="../badge/badge.html">3.Badge</a></li>
+                <li><a class="link-items" href="../button/button.html">4.Button</a></li>
+                <li><a class="link-items" href="../card/card.html">5.Card</a></li>
+                <li><a class="link-items" href="../image/image.html">6.Image</a></li>
+                <li><a class="link-items" href="../input/input.html">7.Input</a></li>
+                <li><a class="link-items" href="../list/list.html">8.List</a></li>
+                <li><a class="link-items" href="../navigation/navigation.html">9.Navigation</a></li>
+                <li><a class="link-items" href="../modal/modal.html">10.Modal</a></li>
+                <li><a class="link-items" href="../rating/rating.html">11.Rating</a></li>
+                <li><a class="link-items" href="../slider/slider.html">12.Slider</a></li>
+                <li><a class="link-items" href="../Simplified Grid/simplified.html">13.Simplified Grid</a></li>
+                <li><a class="link-items" href="../Text Utilities/text.html">14.Text Utilities</a></li>
+                <li><a class="link-items" href="../Snackbar/snackbar.html">15.Snackbar</a></li>
+
+            </ul>
+        </div>
+        <div class="content-div">
+            <h1>Input</h1>
+            <p>A basic widget for getting the user input is a text field. Keyboard and mouse can be used for providing
+                or changing data.
+
+            </p>
             <hr>
+            <h2>When To Use</h2>
+            <p>A user input in a form field is needed.</p>
+            <p>A search input is required.
+
+            </p>
+
+            <hr>
+            <h1>
+                < 1. input type="text">
+                    <h1>
+                        <p>
+                            < input> elements of type text create basic single-line text fields.
+
+                        </p>
+                        <hr>
+
+
+
+
+                        <h2>Sign-In Form</h2>
+                        <div class="sign-in-form">
+                            <form>
+                                <label for="">Username:</label>
+                                <input placeholder="Enter your Username" type="text">
+                                <label for="">Password:</label>
+                                <input placeholder="Enter your Password" type="text">
+                                <button>Submit</button>
+                            </form>
+                        </div>
+
+                        <textarea name="" id="" cols="30" rows="10" class="text-area">
+                    <div class="sign-in-form">
+                        <form >
+                            <label for="">Username:</label>
+                            <input placeholder="Enter your Username" type="text">
+                            <label for="">Password:</label>
+                            <input placeholder="Enter your Password" type="text">
+                            <button>Submit</button>
+                          </form>
+                          </div>
+
+
+                 </textarea>
+
+
+
+
+                        <h2>Sign-up-Form</h2>
+                        <div class="sign-up-form">
+                            <form>
+                                <label for="">Enter your name:</label>
+                                <input  placeholder="Enter your name" type="text">
+                                <label for="">Enter your last name:</label>
+                                <input placeholder="Enter your last  name" type="text">
+                                <label for="">Email id:</label>
+                                <input placeholder="Enter youremail id" type="text">
+                                <label for="">Password:</label>
+                                <input placeholder="Enter your Password" type="text">
+                                <label for="">Confirm Password:</label>
+                                <input placeholder="Enter your confirm Password" type="text">
+
+                                <button>Submit</button>
+                            </form>
+                        </div>
+
+
+
+                        <textarea name="" id="" cols="30" rows="10" class="text-area">
+                    <div class="sign-up-form">
+                        <form >
+                            <label for="">Enter your name:</label>
+                            <input placeholder="Enter your name" type="text">
+                            <label for="">Enter your last name:</label>
+                            <input placeholder="Enter your last  name" type="text">
+                            <label for="">Email id:</label>
+                            <input placeholder="Enter youremail id" type="text">
+                            <label for="">Password:</label>
+                            <input placeholder="Enter your Password" type="text">
+                            <label for="">Confirm Password:</label>
+                            <input placeholder="Enter your confirm Password" type="text">
+                            
+                            <button>Submit</button>
+                          </form>
+                          </div>
+
+
+                 </textarea>
+
+
+                 <h1>2.Input(validation and error)</h1>
+
+                 <div class="validation-form">
+                     <form>
+                        <label>
+                            Password: <input id="password" type="text" ></input>
+                          </label>
+                          <label>
+                            Confirm Password: <input id="confirm" type="text" ></input>
+                          </label>
+                          <button id="check-button">check</button>
+                          <div id="output" ></div>
+
+
+                     </form>
+
+
+                 </div>
+                 <textarea name="" id="" cols="30" rows="10"class="text-area" >
+
+                    <div class="validation-form">
+                        <form>
+                           <label>
+                               Password: <input id="password" type="text" ></input>
+                             </label>
+                             <label>
+                               Confirm Password: <input id="confirm" type="text" ></input>
+                             </label>
+                             <button id="check-button">check</button>
+                             <div id="output" ></div>
+   
+   
+                        </form>
+   
+   
+                    </div>
+                 </textarea>
+
+                 <h1>3.input(Different types of input)</h1>
+                 <hr>
+                 <div class="types-input">
+                     <label for="">Text<input type="text" name="" id=""></label>
+                     <label for="">Date<input type="date" name="" id=""></label>
+                     <label for="">Date And Time<input type="datetime" name="" id=""></label>
+                     <label for="">Range<input type="range" name="" id=""></label>
+                     <label for="">Checkbox<input type="checkbox" name="" id=""></label>
+                     <label for="">Radio<input type="radio" name="" id=""></label>
+                     <label for="">Disabled<input type="text" disabled name="" id=""></label>
+
+                 </div>
+
+
+                 <textarea class="text-area" name="" id="" cols="30" rows="10">
+
+                    <div class="types-input">
+                        <label for="">Text<input type="text" name="" id=""></label>
+                        <label for="">Date<input type="date" name="" id=""></label>
+                        <label for="">Date And Time<input type="datetime" name="" id=""></label>
+                        <label for="">Range<input type="range" name="" id=""></label>
+                        <label for="">Checkbox<input type="checkbox" name="" id=""></label>
+                        <label for="">Radio<input type="radio" name="" id=""></label>
+                        <label for="">Disabled<input type="text" disabled name="" id=""></label>
+   
+                    </div>
+
+
+
+                 </textarea>
+
+
+
+                 <div class="arrow-button-container">
+
+                    <button ><a  class="arrow-button-1" href="../image/image.html"> < image</a> </button>
+                    <button ><a  class="arrow-button-2"href="../list/list.html">list></a>   </button>
             
-             
-            <li><a class="link-items" href="../avatar/avatar.html">1.Avatar</a></li>
-            <li><a class="link-items" href="../alert/alert.html">2.Alert</a></li>
-            <li><a class="link-items" href="../badge/badge.html">3.Badge</a></li>
-            <li><a class="link-items" href="../button/button.html">4.Button</a></li>
-            <li><a class="link-items" href="../card/card.html">5.Card</a></li>
-            <li><a class="link-items" href="../image/image.html">6.Image</a></li>
-            <li><a class="link-items" href="../input/input.html">7.Input</a></li>
-            <li><a class="link-items" href="../list/list.html">8.List</a></li>
-            <li><a class="link-items" href="../navigation/navigation.html">9.Navigation</a></li>
-            <li><a class="link-items" href="../modal/modal.html">10.Modal</a></li>
-            <li><a class="link-items" href="../rating/rating.html">11.Rating</a></li>
-            <li><a class="link-items" href="../slider/slider.html">12.Slider</a></li>
-            <li><a class="link-items" href="../Simplified Grid/simplified.html">13.Simplified Grid</a></li>
-            <li><a class="link-items" href="../Text Utilities/text.html">14.Text Utilities</a></li>
-            <li><a class="link-items" href="../Snackbar/snackbar.html">15.Snackbar</a></li>
+                   </div>
 
-        </ul>
-    </div>
-    <div class="content-div">
- 
 
+
+
+
+
+
+        </div>
+
+        <div class="information-div">
+            <h2>what?</h2>
+            <h3>Introduction</h3>
+            <h3>1.Text Input</h3>
+            <h3>2.validation and Error </h3>
+            <h3>2.Different types of input</h3>
+    
+          
+        </div>
     </div>
 
-    <div class="information-div">
-      
-    </div>
-    </div>
+    <script src="input.js "></script>
 
 
 
