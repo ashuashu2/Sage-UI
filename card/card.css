@@ -58,6 +58,7 @@ p{
 /* ****************text area************ */
 
 .text-area{
+    
     margin-top: 2rem;
     width: 100%;
     height: 25vh;
@@ -179,14 +180,151 @@ margin-top: 0%;
     width: 50%;
     text-align: center;
 }
+.card2{
+    position: relative;
+    border: 1px solid black;
+    width: 35%;
+    
+  }
+  /* .card-img{
+      position: relative;
+  } */
+  .card2-text{
+      color: rgb(78, 11, 11)
+      ;
+      position: absolute;
+      top: 5rem;
+      left: 50px;
+
+  }
+  
 
 
 
 
+.card3{
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 60%;
+    height: 50vh;
+}
+.card3-img{
+    height: 25ch;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.card3-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.card3-text{
+    margin-right: 2rem;
+}
+.card3-button1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 45%;
+
+    color: white;
+    
+    background-color: orangered;
+
+    font-size: xx-large;
+    
+}
+.card3-button2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 55%;
+    color: white;
+
+    background-color: orangered;
+    
+    font-size: xx-large;
+    
+}
+.button-x{
+    font-size: larger;
+border: 1px solid black;
+border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+
+.card4{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    box-shadow: 5px 2px 2px 20px rgb(177, 86, 59);
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 60%;
+    height: 50vh;
+   
+}
+.card5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 35%;
+    /* height: 50vh; */
+   
+}
+.card5-img{
+    height: 25ch;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
 
 
 
+.card5-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.card5-text{
+    /* margin-right: 2rem; */
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.card5-button1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 55%;
 
+    color: white;
+    
+    background-color: orangered;
+
+    font-size: large;
+    
+}
+.card5-button2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 45%;
+    color: white;
+
+    background-color: orangered;
+    
+    font-size: large;
+    
+}
 
 
 
@@ -255,5 +393,67 @@ margin-top: 0%;
     width: 200%;
     text-align: center;
 }
+.card2{
+    width: 100%;
+}
+
+.card2-text{
+    text-align: center;
+    color: rgb(78, 11, 11)
+    ;
+    height: 20vh;
+    width: 80%;
+    position: absolute;
+    top: 8rem;
+    left: 10px;
+
+}
+
+
+
+
+/* ***************card3************ */
+
+.card3{
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 160%;
+    height: 50vh;
+}
+
+
+
+.card4{
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 160%;
+    height: 50vh;
+}
+
+
+
+.card5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+   
+    width: 90%;
+    /* height: 50vh; */
+   
+}
+.card5-text{
+    /* margin-right: 2rem; */
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+
 
 }
