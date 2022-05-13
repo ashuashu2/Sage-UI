@@ -6,9 +6,11 @@
 
 
 
+
 body{
-    background-color: antiquewhite;
+    background-color: rgb(239, 245, 247);
     font-family: 'EB Garamond', serif;
+    font-size: large;
 
  
 }
@@ -21,6 +23,82 @@ body{
     
 
 }
+
+h1 {
+    color: rgb(212, 45, 45);
+}
+h2{
+    color: rgb(212, 45, 45);
+
+}
+h3{
+    color: rgb(212, 45, 45);
+
+}
+p{
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+/* ****************right side information div************ */
+.information-div{
+    border: 1px solid rgb(224, 38, 38);
+    height: 60vh;
+    width: 15%;
+    padding: 1rem;
+    position: fixed;
+    right: 0px;
+
+
+
+
+}
+/* ****************text area************ */
+
+.text-area{
+    margin-top: 2rem;
+    width: 85%;
+    height: 25vh;
+    background-color: black;
+    color: bisque;
+}
+
+
+/* ***************arrow button************ */
+
+.arrow-button-1{
+    font-size: 2rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
+   
+}
+.arrow-button-2{
+    font-size: 2rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+
+
+   
+}
+.arrow-button-container{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  
+}
+
+
+
+
+
 
 .header{
  
@@ -84,11 +162,12 @@ label{
 
     
 }
-.unorder{
+#unorder{
  
     list-style: none;
     position: fixed;
     top: 4rem;
+   
 
   
 }
@@ -99,12 +178,303 @@ margin-top: 0%;
 
 }
 .content-div{
-    margin: auto;
-    padding: 2rem;
-    margin-top: 1rem;
+  margin: 0rem;
 
 }
-.information-div{
-    margin-top: 3rem;
+
+
+/* *********** badge on cart ********* */
+
+.cart-badge-container{
+    /* border: 1px solid; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin-bottom : 2rem ;
+    position: relative;
+}
+.cart-badge{
+    justify-content: center;
+
+    position: absolute;
+    top: -1rem;
+        right:0.5rem;
+}
+
+
+
+
+/* *********** badge on notification ********* */
+
+.notification-badge-container{
+    /* border: 1px solid; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin-bottom : 2rem ;
+    position: relative;
+}
+.notification-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: large;
+    background-color: tomato;
+
+    position: absolute;
+    top: -1rem;
+        right:0.5rem;
+}
+
+/* *********** badge on wishlist ********* */
+
+.wishlist-badge-container{
+    /* border: 1px solid; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin-bottom : 2rem ;
+    position: relative;
+}
+.wishlist-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: large;
+    background-color: tomato;
+
+    position: absolute;
+    top: -1rem;
+        right:0.5rem;
+}
+
+
+
+/* *********** badge on avatar ********* */
+
+.avatar-badge-container{
+    /* border: 1px solid; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin-bottom : 2rem ;
+    position: relative;
+}
+.avatar-badge{
+border: 1px ;
+border-radius: 50%;
+font-size: large;
+    background-color: green;
+    color: green;
+
+    position: absolute;
+    top: -1rem;
+        right:0.5rem;
+}
+
+
+
+/* *********** badge on avatar ********* */
+
+.message-badge-container{
+    /* border: 1px solid; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin-bottom : 2rem ;
+    position: relative;
+}
+.message-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: large;
+    background-color: blue;
+    color: white;
+
+    position: absolute;
+    top: -1rem;
+        right:0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************responsive************ */
+
+@media only screen and (max-width: 768px)  {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+    #unorder{
  
+        list-style: none;
+        position: relative;
+
+      
+      
+        /* top: 4rem; */
+      
+    }
+    .links-div{
+       margin: -5rem;
+       
+
+    }
+    .link-items{
+        font-size: larger;
+       
+    }
+    .content-div{
+        margin: 8rem;
+    }
+
+
+
+.information-div{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********** badge on cart ********* */
+
+
+.cart-badge{
+    justify-content: center;
+
+    position: absolute;
+    position: absolute;
+    top: -4rem;
+   
+        right:0rem; */
+}
+
+
+
+
+/* *********** badge on notification ********* */
+
+
+.notification-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: smaller;
+    background-color: tomato;
+
+    position: absolute;
+    top: -4rem;
+   
+        right:0.2rem; */
+}
+
+/* *********** badge on wishlist ********* */
+
+
+.wishlist-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: smaller;
+    background-color: tomato;
+
+    position: absolute;
+    top: -4rem;
+   
+        right:0.2rem; */
+}
+
+
+
+/* *********** badge on avatar ********* */
+
+
+.avatar-badge{
+border: 1px ;
+border-radius: 50%;
+font-size: large;
+    background-color: green;
+    color: green;
+
+    position: absolute;
+    top: -4rem;
+   
+        right:0.2rem; */
+}
+
+
+
+/* *********** badge on avatar ********* */
+
+
+.message-badge{
+border: 1px ;
+border-radius: 40%;
+font-size: large;
+    background-color: blue;
+    color: white;
+
+    position: absolute;
+    top: -5rem;
+   
+        right:-1.3rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
