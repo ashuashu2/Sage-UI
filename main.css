@@ -3,5 +3,18 @@
 @import "./avatar/avatar.css";
 @import "./button/button.css";
 @import "./installation/installation.css";
-/* @import "./style.css";
-@import "./style.css"; */
+@import "./badge/badge.css";
+@import "./card/card.css";
+@import "./image/image.css";
+@import "./input/input.css";
+@import "./list/list.css";
+@import "./navigation/navigation.css";
+@import "./modal/modal.css";
+@import "./rating/rating.css";
+@import "./slider/slider.css";
+@import "./Simplified Grid/simplifies.css";
+@import "./Text\ Utilities/text.css";
+@import "./Snackbar/snackbar.css";
+
+
+
