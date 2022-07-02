@@ -391,15 +391,18 @@ margin-left: 3rem;
   }
 
 
-
+.round-image-container{
+    width: 50%;
+    margin-right: auto;
+}
 
 
   .square-image{
-    height: 10ch;
+    height: 12ch;
    
 }
 .round-image{
-    height: 10ch;
+    height: 12ch;
    
 }
 
