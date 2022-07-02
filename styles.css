@@ -373,20 +373,19 @@ margin-left: 3rem;
     }
   .links2-div {
     margin-top: 5rem;
+    
     color: black;
-    margin-left:-2rem;
+    margin-left:-3rem;
     display:grid;
-    grid-template-columns: 100px  100px 100px 100px;
+    gap: 10px;
+    grid-template-columns: 100px  100px 100px ;
     grid-template-rows: 100px  100px 100px 100px  ;
   }
   .links2-li{
     color: black;
+    margin: 5rem;
   }
-.links2-container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
-}
+
 
 
 
