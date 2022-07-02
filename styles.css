@@ -91,14 +91,11 @@ body{
     display: flex;
     border: 1px solid black;
     justify-content: center;
-    height: 10vh;
-    width: 80%;
-    margin-bottom: 10rem;
     
    
 }
 .square-image{
-    height: 22ch;
+    height: 18ch;
     width: 100%;
     margin: 2.5rem;
     border: 1px solid black;
@@ -108,7 +105,7 @@ body{
 }
 .round-image{
     width: 100%;
-    height: 22ch;
+    height: 18ch;
     margin: 2.5rem;
     border: 1px solid black;
     border-radius: 50%;
@@ -260,7 +257,9 @@ body{
   
    /* *******************  nav ************************** */
 .nav-div{
+   
     background-color: black;
+
    position: unset;
     
 }
@@ -279,15 +278,16 @@ body{
     flex-wrap: wrap;
     margin-top: 1.5rem;
     font-size: 15px;
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: 1rem;
 
 }
 .search-input{
-    width: 80%;
+    width: 70%;
 }
 
 .nav-links{
+    margin-left: -1rem;
 
 font-size: 5x;  
   text-decoration: none;
@@ -326,6 +326,7 @@ font-size: 5x;
 
 
 .main-div{
+    width: 90%;
     margin-top: 0rem;
     margin-left: -3rem;
 }
@@ -378,11 +379,11 @@ margin-left: 3rem;
     margin-top: 5rem;
     
     color: black;
-    margin-left:-3rem;
+    margin-left:-4rem;
     display:grid;
-    gap: 10px;
-    grid-template-columns: 100px  100px 100px ;
-    grid-template-rows: 100px  100px 100px 100px  ;
+    gap: 20px;
+    grid-template-columns: 80px  80px 80px;
+    
   }
   .links2-li{
     color: black;
@@ -390,6 +391,17 @@ margin-left: 3rem;
   }
 
 
+
+
+
+  .square-image{
+    height: 18ch;
+   
+}
+.round-image{
+    height: 18ch;
+   
+}
 
 
 
