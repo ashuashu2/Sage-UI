@@ -5,14 +5,27 @@ body{
 }
 
 /* *******************  nav ************************** */
+
+
+#list-view-button{
+    background-color: black;
+    visibility: hidden;
+}
+.footer{
+    visibility:hidden;
+}
 .nav-div{
     position: fixed;
     top: 0px;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(4, 6, 8);
 }
 
 .nav-container{
     display: flex;
     background-color: black;
+    
 }
 .nav-heading{
     font-size: 2.3rem;
@@ -150,6 +163,7 @@ body{
 
 
 .links-div{
+    /* margin-top: 4rem; */
     position: fixed;
 }
 
@@ -164,15 +178,15 @@ body{
     color: white;
 }
 .content-div{
-    /* margin-left: auto; */
     margin-left: 20rem;
+    margin-top: 6rem;
     
 }
 .information-div{
     /* margin-left : auto;  */
     position: fixed;
     right:  10px;
-    top: 10rem;
+    top: 12rem;
 }
 
 
@@ -235,29 +249,23 @@ body{
 
 
 
-
-
-
-
-
-
 /* ********************  responsive  screen *************** */
 
 
  
-@media screen and (max-width : 500px ) {
+@media screen and (max-width : 800px ) {
   
    /* *******************  nav ************************** */
 .nav-div{
-    width: 35%;
-
-    position: fixed;
-    /* top: 0px; */
+    background-color: black;
+   position: unset;
+    
 }
 
 .nav-container{
     display: flex;
     background-color: black;
+    height: 2vh;
 }
 .nav-heading{
     font-size:20px;
@@ -298,7 +306,6 @@ font-size: 5x;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     
 
     text-decoration: none;
@@ -315,27 +322,96 @@ font-size: 5x;
 
 
 
+.main-div{
+    margin-top: 0rem;
+    margin-left: -3rem;
+}
+
+
+/* **************   list    ************* */
+
+
+.links-div{
+margin-left: 3rem;  
+
+    margin-top: 0srem;
+
+    width: 100%;
+   }
+   .link-items{
+    font-size: 1rem;
+    
+   }
+#unorder{
+    visibility: hidden;
+    display: none;
+
+}
+   .list-view-button{
+    
+    background-color: black;
+    visibility: visible;
+}
+.list-view-image{
+    height: 5vh;
+    width: 100%;
+}
+
+
+
+
+.content-div{
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        position: relative;
+
+
+    }
+    .footer{
+        visibility: unset;
+    }
+  .links2-div {
+    margin-top: 5rem;
+    color: black;
+    margin-left:-2rem;
+    display:grid;
+    grid-template-columns: 100px  100px 100px 100px;
+    grid-template-rows: 100px  100px 100px 100px  ;
+  }
+  .links2-li{
+    color: black;
+  }
+.links2-container{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+}
 
 
 
 
 
 
-    .information-div{
+
+
+
+
+
+ 
+
+  .information-div{
         visibility: hidden;
         display: none;
     }
-    .links-div{
-        margin-top: 5rem;
-        position: relative;
-        left: 0px;
-    }
-    .content-div{
-
-    }
+    
+   
 
     
 } 
+
+
+
 
 
 
