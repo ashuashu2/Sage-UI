@@ -11,6 +11,13 @@ body{
 
  
 }
+/* .first-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
+
+} */
 
 .nav-heading{
     font-size: 2.5rem;
@@ -49,6 +56,7 @@ p{
     width: 15%;
     padding: 1rem;
     position: fixed;
+    top: 200px;
     right: 0px;
 
 
@@ -93,15 +101,6 @@ p{
   
 }
 
-
-.header{
- 
-
-    display: flex;
-
-   
-   
-}
 
 .list-item{
     margin-left: auto;
@@ -160,7 +159,7 @@ label{
  
     list-style: none;
     position: fixed;
-    top: 4rem;
+    top: 200px;
 
   
 }
@@ -324,6 +323,42 @@ border-radius: 50%;
     
     font-size: large;
     
+}
+
+.first-div{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas: "header header header"
+    " links content info "
+    " links content info "
+    " links content info "
+    " links content info "
+   
+    
+    ;
+}
+
+
+.header{
+ 
+
+    display: flex; 
+    grid-area: header;
+
+   
+   
+}
+.information-div{
+    grid-area: info;
+}
+.links-div{
+    grid-area: links;
+    
+}
+.content-div{
+    grid-area: content;
+    gap: 500px;
+    margin: 3rem;
 }
 
 
