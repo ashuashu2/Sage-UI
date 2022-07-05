@@ -16,7 +16,7 @@
 
 .button-started{
     background-color:; 
-   font-size: x-large;
+   font-size: xx-large;
    margin-top: 2rem;
    margin-right: 10rem;
    border: solid black;
@@ -267,7 +267,7 @@ body{
  }
  
  .nav-links{
-     margin-left: -1rem;
+     margin-left: -2rem;
  
  font-size: 5x;  
    text-decoration: none;
@@ -279,20 +279,59 @@ body{
      color: aliceblue;
      font-size: 15px;
  }
-
-
-
- .hero{
-
-    visibility: hidden;
-   
-  
+ .color-change{
+    color: red;
 }
+.list-item{
+    margin-right: 1rem;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    text-decoration: none;
+    color: black;
+
+}
+.list{
+    font-size:20px;
+    margin: 0.5rem;
+
+}
+
+
+
+ 
 .banner-heading{
-    margin-left: -30rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.hero{
+        height: 27vh;
+    /* width: 100%; */
+
 }
 
+.flex{
+    display: grid;
+    font-size: x-large;
+    margin-top: 10rem;
+  
+    
+}
+.button-started{
+    background-color:; 
+   font-size: x-large;
+   margin-top: 2rem;
+   margin-right: 10rem;
+   border: solid black;
+   border: 10px solid black
+  
 
+   
+}
  
      
  } 
