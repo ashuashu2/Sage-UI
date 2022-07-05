@@ -1,101 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
-
-@import"./alert/alert.css"
-body{
-    background-color: antiquewhite;
-    max-width: 100%;
-    font-family: 'EB Garamond', serif;
-
-    
-} 
-.nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
-    margin-right: 2rem;
-    margin-top: 0px;
-
-}
-.header{
-    display: flex;
-   
-   
-}
-
-
-
-
-.list-item{
-    margin-left: auto;
-}
-label{
-    font-size: x-large;
-    color: rgb(212, 45, 45);
-
-}
-
 
 
 .flex{
     display: flex;
     font-size: x-large;
+    margin-top: 10rem;
   
     
 }
 .hero{
-    margin: auto;
-    
-    
+
+      height: 70vh;
+     
     
 }
 
-.banner-heading{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; 
-    margin: auto;
-    margin-top: 3rem;
-   
-
-    
-}
-.list{
-    margin: 1rem;
-    font-size: xx-large;
-    list-style: none;
-    display: inline;
-   
- 
-    
-}
-.form{
-    margin-top: 1rem;
-    margin-left: 5rem;
-}
-.nav-links{
-    color: rgb(212, 45, 45);
-
-    
-    text-decoration: none;
-    margin-bottom: 2rem;
-} 
-h2{
-    text-align: center;
-
-}
-
-.buttonstarted{
+.button-started{
     background-color:; 
    font-size: x-large;
    margin-top: 2rem;
    margin-right: 10rem;
    border: solid black;
+   border: 10px solid black
   
 
    
 }
 .get-started{
-    color: rgb(212, 45, 45);;
+    background-color: black;
+    border: 3px solid rgb(248, 39, 39);
+    color: aliceblue;
+    text-decoration: none;
 }
 .small-container{
    
@@ -106,39 +40,272 @@ h2{
    
    
 
+    
+}
+.banner-heading{
+    margin-left: 10rem;
 }
 
 
 
-/* ***************responsive************ */
 
-@media only screen and (max-width: 768px)  {
-    /* For mobile phones: */
-    html{
-        font-size: 50%;
-    }
-    .flex{
-        size: 0rem;
-        height: 10vh;
-        width: 100px;
-    }
-    #image{
-      max-width: 50px;
-       
 
-    }
-    .hero{
-        margin-top: 10rem;
-        margin-right: 15rem;
-        max-width: 200px;
-        
-    }
-    .banner-heading{
-        margin-left: 25rem; 
-        
-        
-    }
-    .small-container{
-        max-width: 100px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *****************nav*********************** */
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    color: aliceblue;
+    background-color: black;
+   
+}
+
+/* *******************  nav ************************** */
+
+
+.footer{
+    visibility:hidden;
+}
+.nav-div{
+    position: fixed;
+    top: 0px;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(4, 6, 8);
+}
+
+.nav-container{
+    display: flex;
+    background-color: black;
+    
+}
+.nav-heading{
+    font-size: 2.3rem;
+    margin-top: 0px;
+}
+.form{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+
+}
+
+.submit-button{
+    background-color: red;
+    border-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.color-change{
+    color: red;
+}
+.list-item{
+    margin-left: auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+
+}
+.list{
+    font-size: 2rem;
+    margin: 1rem;
+    
+}
+.nav-links{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************arrow button************ */
+
+.arrow-button-1{
+    font-size: 2rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+   
+}
+.arrow-button-2{
+    font-size: 2rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    background-color: aliceblue;
+
+
+   
+}
+.arrow-button-container{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  
+}
+
+.arrow-image{
+    height: 5ch;
+    color: rgb(71, 42, 35);
+    background-color: aliceblue;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************  responsive  screen *************** */
+
+
  
+@media screen and (max-width : 800px ) {
+  
+    /* *******************  nav ************************** */
+ .nav-div{
+    
+     background-color: black;
+ 
+    position: unset;
+     
+ }
+ 
+ .nav-container{
+     display: flex;
+     background-color: black;
+     height: 2vh;
+ }
+ .nav-heading{
+     font-size:20px;
+     margin-top: 0px;
+ }
+ .form{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 1.5rem;
+     font-size: 15px;
+     margin-left: 1rem;
+     margin-top: 1rem;
+ 
+ }
+ .search-input{
+     width: 70%;
+ }
+ 
+ .nav-links{
+     margin-left: -1rem;
+ 
+ font-size: 5x;  
+   text-decoration: none;
+     color: aliceblue;
+ }
+ .submit-button{
+     background-color: red;
+     border-color: black;
+     color: aliceblue;
+     font-size: 15px;
+ }
+
+
+
+ .hero{
+
+    visibility: hidden;
+   
+  
+}
+.banner-heading{
+    margin-left: -30rem;
+}
+
+
+ 
+     
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
