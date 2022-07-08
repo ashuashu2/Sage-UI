@@ -94,8 +94,8 @@ body{
 
 .text-area{
     margin-top: 2rem;
-    width: 85%;
-    height: 15vh;
+    width: 100%;
+    height: 30vh;
     background-color: black;
     color: bisque;
 }
@@ -236,12 +236,50 @@ body{
 
 
 
-/* // *******************  slider (using button)               ********************************* */
 
 
 .slides2{
     display: none;
 }
+
+
+
+
+
+/* // *******************  slider (using dots)               ********************************* */
+
+.slides3{
+    display: none
+    ;
+}
+
+
+
+
+.dot-slide-div{
+    position: relative;
+}
+.dot-button-div{
+    position: absolute;
+    cursor: pointer;
+
+    top: 90%;
+    left: 50%;
+    /* transform: translateX(-50%); */
+}
+.dot-button-slides{
+    border-radius: 50%;
+    cursor: pointer;
+
+    height: 3vh;
+    width: 10%;
+}
+
+
+
+
+
+
 
 
 
@@ -392,7 +430,7 @@ body{
          width: 100%;
          margin-top: 2rem;
          margin-left: 5rem;
-         position: relative;
+         
  
  
      }

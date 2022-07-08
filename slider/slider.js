@@ -57,6 +57,9 @@ function controler(x)
 
 
 
+
+
+
 // ******************* automatic slider (using set timeout)               *********************************
 
 
@@ -88,3 +91,58 @@ function automaticSideShow(){
 automaticSideShow()
 
 
+
+
+// ****************    slide (using dot)           *******************************
+
+
+
+var slides3 = document.getElementsByClassName("slides3");
+
+
+
+var i =0
+
+function dotSlideShow(){
+
+
+  for (let index = 0; index < slides3.length; index++) {
+    slides3[index].style.display= "none"
+  
+    
+  }
+ slides3[i].style.display = "block"
+
+
+}
+dotSlideShow()
+function newControler5(x)
+{
+  i = 4
+
+  return dotSlideShow()
+}
+function newControler1(x)
+{
+  i = 3
+
+  return dotSlideShow()
+}
+function newControler2(x)
+{
+  i = 2
+
+  return dotSlideShow()
+}
+function newControler3(x)
+{
+  i = 1
+
+  return dotSlideShow()
+}
+function newControler4(x)
+{
+  i = 3
+
+  return dotSlideShow()
+}
