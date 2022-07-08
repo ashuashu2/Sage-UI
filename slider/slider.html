@@ -10,64 +10,247 @@
 <link rel="stylesheet" href="slider.css">
 
 <body>
-    <nav>
-        <div class="header">
-            <h1 class="nav-heading"> 📚 <span> A component liabrary</span></h1>
-            <form class="form">
-                <label class="search">Search Components:</label>
-                <input type="search">
-                <input type="submit">
-            </form>
-            <ul class="list-item">
+ 
+    <div class="bigger-div">
 
-                <li class="list">
-                    <a class="nav-links" href=""> <strong> docs</strong> </a>
-                </li>
-                <li class="list">
-                    <a class="nav-links" href="https://github.com/ashuashu2/"> <strong> Github </strong> </a>
-                </li>
+        <div class="nav-div">
+    
+        
+        <nav class="nav-container">
+            <div>
+                <h1 class="nav-heading"><span class="color-change">📚</span>  <span class="color-change" >A</span> component liabrary</h1>
+            </div>
+        
+                
+                <form class="form">
+                    <label class="search"> <strong>Search Components <span class="color-change" >:</span> </strong> </label>
+                    <input  class="search-input" type="search">
+                    <input  class="submit-button" type="submit">
+                </form>
+                <ul class="list-item">
+    
+                    <li class="list">
+                        <a class="nav-links" href=""> <strong>  Docs</strong> </a>
+                    </li>
+                    <li class="list">
+                        <a class="nav-links" href="https://github.com/ashuashu2/"> <strong>  Github </strong> </a>
+                    </li>
+    
+                </ul>
+            
+        </nav>
+    </div>
 
+
+
+    <div class="main-div">    
+        <div class="links-div">
+            <ul id="unorder">
+                
+                <li><a class="link-items" style="font-size: 2rem;" href="../installation/installation.html"> <span class="color-change">Installation</span></a></li>
+               
+                <hr>
+                
+                 
+                <li><a class="link-items" href="../avatar/avatar.html">1.  <span class="color-change">Avatar</span></a></li>
+                <li><a class="link-items" href="../alert/alert.html">2. <span class="color-change">Alert</span></a></li>
+                <li><a class="link-items" href="../badge/badge.html">3. <span class="color-change">Badge</span></a></li>
+                <li><a class="link-items" href="../button/button.html">4. <span class="color-change">Button</span></a></li>
+                <li><a class="link-items" href="../card/card.html">5. <span class="color-change">Card</span></a></li>
+                <li><a class="link-items" href="../image/image.html">6. <span class="color-change">Image</span></a></li>
+                <li><a class="link-items" href="../input/input.html">7. <span class="color-change">Input</span></a></li>
+                <li><a class="link-items" href="../list/list.html">8. <span class="color-change">List</span></a></li>
+                <li><a class="link-items" href="../navigation/navigation.html">9. <span class="color-change">Navigation</span></a></li>
+                <li><a class="link-items" href="../modal/modal.html">10. <span class="color-change">Modal</span></a></li>
+                <li><a class="link-items" href="../rating/rating.html">11. <span class="color-change">Rating</span></a></li>
+                <li><a class="link-items" href="../slider/slider.html">12. <span class="color-change">Slider</span></a></li>
+                <li><a class="link-items" href="../Simplified Grid/simplified.html">13. <span class="color-change">Simplified Grid</span></a></li>
+                <li><a class="link-items" href="../Text Utilities/text.html">14. <span class="color-change">Text Utilities </span> </a></li>
+                <li><a class="link-items" href="../Snackbar/snackbar.html">15. <span class="color-change">Snackbar </span></a></li>
+    
             </ul>
         </div>
-    </nav> 
-    <div class="main-div">    
-    <div class="links-div">
-        <ul class="unorder">
-            
-            <li><a class="link-items" href="../installation/installation.html">Installation</a></li>
-           
-            <hr>
-            
-             
-            <li><a class="link-items" href="../avatar/avatar.html">1.Avatar</a></li>
-            <li><a class="link-items" href="../alert/alert.html">2.Alert</a></li>
-            <li><a class="link-items" href="../badge/badge.html">3.Badge</a></li>
-            <li><a class="link-items" href="../button/button.html">4.Button</a></li>
-            <li><a class="link-items" href="../card/card.html">5.Card</a></li>
-            <li><a class="link-items" href="../image/image.html">6.Image</a></li>
-            <li><a class="link-items" href="../input/input.html">7.Input</a></li>
-            <li><a class="link-items" href="../list/list.html">8.List</a></li>
-            <li><a class="link-items" href="../navigation/navigation.html">9.Navigation</a></li>
-            <li><a class="link-items" href="../modal/modal.html">10.Modal</a></li>
-            <li><a class="link-items" href="../rating/rating.html">11.Rating</a></li>
-            <li><a class="link-items" href="../slider/slider.html">12.Slider</a></li>
-            <li><a class="link-items" href="../Simplified Grid/simplified.html">13.Simplified Grid</a></li>
-            <li><a class="link-items" href="../Text Utilities/text.html">14.Text Utilities</a></li>
-            <li><a class="link-items" href="../Snackbar/snackbar.html">15.Snackbar</a></li>
-
-        </ul>
-    </div>
     <div class="content-div">
- 
 
-    </div>
 
-    <div class="information-div">
+
+        <h1>sliders</h1>
+        <p>Sliders allow users to view and select a value (or range) from the range along a bar. They’re ideal for adjusting settings such as volume and brightness, or for applying image filters..</p>
+
+        <hr>
+        <h1>1. Normal Slider </h1>
+        <p>A  Normal  slider is used  adjusting the intensity of sound,adjusting the intensity of price.</p>
+        <input type="range" value="50">
+        <textarea name="" class="text-area" cols="30" rows="10">
+        <input type="range" value="50">
+    </textarea>
+
+        <hr>
+        <h1><span class="color-change">C</span>arousel   </h1>
+
+        <p>A slideshow component for cycling through elements—images or slides of text—like a carousel.</p>
+
+
+        
+
+    <h1 style="margin-top: 5rem;">1. <span class="color-change">S</span>lider (<span  class="color-change">  B</span>y using buttons)</h1>
+
+    <p>Buttons slider display every image after click on the button</p>
+
+    <div class="slide-show-container">
+        <div id="pics-div">
+            <div class="slides">
+        <img   class="images-slide" src="../images/004.jpg" alt="">
+
+      </div>
+      <div class="slides" >
+        <img class="images-slide" src="../images/images.jpg" alt="">
+      </div>
       
+      <div class="slides">
+        <img  class="images-slide"  src="../images/malewatch188780_1280.jpg" alt="">
+
+      </div>
+      <div class="slides">
+        <img  class="images-slide"  src="../images/hero.png" alt="">
+      </div>
     </div>
-    </div>
+    <div class="slides">
+        <img  class="images-slide"  src="../images/omega-responsive-image-slider-1024x566.png" alt="">
+      </div>
+      
+
+     <button class="arrow-button-slides1" onclick="controler(-1)"> <img class="arrow-image" src="../images/left-arrow.png" alt=""> </button> 
+     <button class="arrow-button-slides2" onclick="controler(1)">  <img class="arrow-image" src="../images/right-arrow.png" alt=""></button>
+     </div>
 
 
+
+
+     <hr>
+  
+
+
+     
+
+ <h2> Automatic Slider(using set timeOut )</h2>
+ <h1>2. <span class="color-change">A</span>utomatic  <span  class="color-change"> S</span>lider  (<span  class="color-change">U</span>sing set timeOut )</h1>
+
+ <p>Automatic slider display every image after 2 seconds.
+    To display an automatic slideshow is even simpler.
+
+    You only need a little different JavaScript:</p>
+
+ <div class="automatic-slide-container">
+    <div class="slides2">
+     <img  class="images-slide"  src="../images/malewatch188780_1280.jpg" alt="">
+
+   </div>
+   <div class="slides2">
+     <img  class="images-slide"  src="../images/hero.png" alt="">
+   </div>
+   <div class="slides2">
+     <img   class="images-slide" src="../images/004.jpg" alt="">
+
+   </div>
+   <div class="slides2" >
+     <img class="images-slide" src="../images/images.jpg" alt="">
+   </div>
+   
+   
+   
+ </div>
+ <div class="slides2">
+     <img  class="images-slide"  src="../images/omega-responsive-image-slider-1024x566.png" alt="">
+   </div>
+
+
+
+
+
+        
+       
+
+
+
+
+       <div class="arrow-button-container">
+
+        <a  class="arrow-button-1" href="../avatar/avatar.html"> <img class="arrow-image" src="../images/left-arrow.png" alt=""> </a> 
+
+        <a  class="arrow-button-2"href="../badge/badge.html"> <img class="arrow-image" src="../images/right-arrow.png" alt=""></a>
+        
+
+     
+       </div>
+       <hr>
+
+       <footer class="footer" >
+        <h1>All Component</h1>
+        <small> For installation click on installation</small>
+        
+                
+        <li class="links2-li" ><a class="link-items links-items" style="font-size: 2rem;" href="../installation/installation.html"> <span class="color-change">Installation</span></a></li>
+       
+        
+      <div class="links2-container" >
+        <ul class="links2-div">
+
+        
+        
+         
+        <li><a class="link-items links2-items" href="../avatar/avatar.html">1.  <span class="color-change">Avatar</span></a></li>
+        <li><a class="link-items links2-items" href="../alert/alert.html">2. <span class="color-change">Alert</span></a></li>
+        <li><a class="link-items links2-items" href="../badge/badge.html">3. <span class="color-change">Badge</span></a></li>
+        <li><a class="link-items links2-items" href="../button/button.html">4. <span class="color-change">Button</span></a></li>
+        <li><a class="link-items links2-items" href="../card/card.html">5. <span class="color-change">Card</span></a></li>
+        <li><a class="link-items links2-items" href="../image/image.html">6. <span class="color-change">Image</span></a></li>
+        <li><a class="link-items links2-items" href="../input/input.html">7. <span class="color-change">Input</span></a></li>
+        <li><a class="link-items links2-items" href="../list/list.html">8. <span class="color-change">List</span></a></li>
+        <li><a class="link-items links2-items" href="../navigation/navigation.html">9. <span class="color-change">Navigation</span></a></li>
+        <li><a class="link-items links2-items" href="../modal/modal.html">10. <span class="color-change">Modal</span></a></li>
+        <li><a class="link-items links2-items" href="../rating/rating.html">11. <span class="color-change">Rating</span></a></li>
+        <li><a class="link-items links2-items" href="../slider/slider.html">12. <span class="color-change">Slider</span></a></li>
+        <li><a class="link-items links2-items" href="../Simplified Grid/simplified.html">13. <span class="color-change">Simplified Grid</span></a></li>
+        <li><a class="link-items links2-items" href="../Text Utilities/text.html">14. <span class="color-change">Text Utilities </span> </a></li>
+        <li><a class="link-items links2-items" href="../Snackbar/snackbar.html">15. <span class="color-change">Snackbar </span></a></li>
+    
+    </ul>
+        
+    </div>
+
+       </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="information-div">
+    <h2>  <span class="color-change">W</span>  hat?</h2>
+    <h3>  <span class="color-change">I</span>ntroduction</h3>
+    <h3>1.  <span class="color-change">S</span>lider(By using buttons</h3>
+    <h3>2. <span class="color-change">A</span>utomatic Slider</h3>
+   
+</div>
+</div>
+</div>
+
+    
+
+
+    <script src="slider.js"></script>
+    
 
 </body>
 

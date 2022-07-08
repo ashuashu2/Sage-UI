@@ -1,109 +1,488 @@
+
+
+
+
+
+
+
+
 /* *****************nav*********************** */
 
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&display=swap');
+
+
+
+
+
+
+
 
 
 
 body{
-    background-color: antiquewhite;
-    font-family: 'EB Garamond', serif;
-
- 
+    color: aliceblue;
+    background-color: black;
+   
 }
 
-.nav-heading{
-    font-size: 2.5rem;
-    color: rgb(212, 45, 45);
-    margin-right: 2rem;
-    margin-top: 0px;
-    
+/* *******************  nav ************************** */
 
+
+.footer{
+    visibility:hidden;
+}
+.nav-div{
+    position: fixed;
+    top: 0px;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(4, 6, 8);
 }
 
-.header{
- 
-
+.nav-container{
     display: flex;
+    background-color: black;
+    
+}
+.nav-heading{
+    font-size: 2.3rem;
+    margin-top: 0px;
+}
+.form{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
 
-   
-   
 }
 
+.submit-button{
+    background-color: red;
+    border-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.color-change{
+    color: red;
+}
 .list-item{
     margin-left: auto;
-}
-label{
-    font-size: x-large;
-    color: rgb(212, 45, 45);
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
 
 }
 .list{
+    font-size: 2rem;
     margin: 1rem;
-    font-size: xx-large;
-    list-style: none;
-    display: inline;
-   
- 
     
 }
 .nav-links{
-    color: rgb(212, 45, 45);
-
-    
     text-decoration: none;
-    margin-bottom: 2rem;
-} 
-.form{
-    margin-top: 1rem;
-    margin-left: 5rem;
+    color: aliceblue;
 }
 
 
 
 
-/* ********************LEFT FEILD ******** */
+
+
+/* ****************text area************ */
+
+.text-area{
+    margin-top: 2rem;
+    width: 85%;
+    height: 15vh;
+    background-color: black;
+    color: bisque;
+}
 
 
 
+
+
+
+
+
+
+/* ********************       main div         ******************************* */
 
 
 .main-div{
-    margin: 1rem;
     display: grid;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    column-gap: 5rem ;
-   
+    margin-top: 5rem;
+    grid-template-columns:  80% 30% 30%;
 }
 
-.link-items{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: brown;
-
-    
-}
-.unorder{
- 
-    list-style: none;
-    position: fixed;
-    top: 4rem;
-
-  
-}
 
 .links-div{
-  
-margin-top: 0%;
+    /* margin-top: 4rem; */
+    position: fixed;
+}
 
+#unorder{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: black;
+    
+}
+.link-items{
+    text-decoration: none;
+    color: white;
 }
 .content-div{
-    margin: auto;
-    padding: 2rem;
-    margin-top: 1rem;
-
+    margin-left: 20rem;
+    margin-top: 6rem;
+    
 }
 .information-div{
-    margin-top: 3rem;
- 
+    position: fixed;
+    right:  10px;
+    top: 12rem;
 }
+
+
+
+/* ***************arrow button************ */
+
+.arrow-button-1{
+    font-size: 2rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+   
+}
+.arrow-button-2{
+    font-size: 2rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    background-color: aliceblue;
+
+
+   
+}
+.arrow-button-container{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+
+  
+}
+
+.arrow-image{
+    height: 5ch;
+    color: rgb(71, 42, 35);
+    background-color: aliceblue;
+    
+    
+
+}
+
+
+
+
+
+/* // *******************  slider (using button)               ********************************* */
+
+
+
+
+
+
+
+
+.images-slide{
+    height: 50vh;
+    width: 100%;
+}
+.slides{
+    display: none;
+}
+.arrow-button-slides1{
+    font-size: 1rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left : 0px ;
+   
+}
+.arrow-button-slides2{
+    font-size: 1rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    right: 0x;
+
+
+
+   
+}
+.slide-show-container{
+
+    position: relative;
+}
+
+
+
+
+
+/* // *******************  slider (using button)               ********************************* */
+
+
+.slides2{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************  responsive  screen *************** */
+
+
+ 
+@media screen and (max-width : 800px ) {
+  
+    /* *******************  nav ************************** */
+ .nav-div{
+    
+     background-color: black;
+ 
+    position: unset;
+     
+ }
+ 
+ .nav-container{
+     display: flex;
+     background-color: black;
+     height: 2vh;
+ }
+ .nav-heading{
+     font-size:20px;
+     margin-top: 0px;
+ }
+ .form{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 1.5rem;
+     font-size: 15px;
+     margin-left: 1rem;
+     margin-top: 1rem;
+ 
+ }
+ .search-input{
+     width: 70%;
+ }
+ 
+ .nav-links{
+     margin-left: -1rem;
+ 
+ font-size: 5x;  
+   text-decoration: none;
+     color: aliceblue;
+ }
+ .submit-button{
+     background-color: red;
+     border-color: black;
+     color: aliceblue;
+     font-size: 15px;
+ }
+ .color-change{
+     color: red;
+ }
+ .list-item{
+     margin-right: 1rem;
+     margin-top: 0px;
+     display: flex;
+     justify-content: space-between;
+     display: flex;
+     flex-wrap: wrap;
+     
+ 
+     text-decoration: none;
+     color: black;
+ 
+ }
+ .list{
+     font-size:20px;
+     margin: 0.5rem;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ .main-div{
+     width: 90%;
+     margin-top: 0rem;
+     margin-left: -3rem;
+ }
+ 
+ 
+ /* **************   list    ************* */
+ 
+ 
+ .links-div{
+ margin-left: 3rem;  
+ 
+     margin-top: 0srem;
+ 
+     width: 100%;
+    }
+    .link-items{
+     font-size: 1rem;
+     
+    }
+ #unorder{
+     visibility: hidden;
+     display: none;
+ 
+ }
+    .list-view-button{
+     
+     background-color: black;
+     visibility: visible;
+ }
+ .list-view-image{
+     height: 5vh;
+     width: 100%;
+ }
+ 
+ 
+ 
+ 
+ .content-div{
+         width: 100%;
+         margin-top: 2rem;
+         margin-left: 5rem;
+         position: relative;
+ 
+ 
+     }
+     .footer{
+         visibility: unset;
+     }
+   .links2-div {
+     margin-top: 5rem;
+     
+     color: black;
+     margin-left:-4rem;
+     display:grid;
+     gap: 20px;
+     grid-template-columns: 80px  80px 80px;
+     
+   }
+   .links2-li{
+     color: black;
+     margin: 5rem;
+   }
+ 
+ 
+
+ 
+   .information-div{
+         visibility: hidden;
+         display: none;
+     }
+
+
+     
+
+/* // *******************  slider (using button)               ********************************* */
+
+
+
+
+
+
+
+
+.images-slide{
+    height: 30vh;
+    width: 100%;
+}
+.slides{
+    display: none;
+}
+.arrow-button-slides1{
+    font-size: 1rem;
+    left: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left : 0px ;
+   
+}
+.arrow-button-slides2{
+    font-size: 1rem;
+    right: 0px;
+    color:  rgb(224, 38, 38) ;
+    text-decoration: none;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    right: 0x;
+
+
+
+   
+}
+.slide-show-container{
+
+    position: relative;
+}
+
+
+
+
+
+/* // *******************  slider (using button)               ********************************* */
+
+
+.slides2{
+    display: none;
+}
+
+     
+    
+ 
+     
+ } 
