@@ -124,19 +124,19 @@ function newControler5(x)
 }
 function newControler1(x)
 {
-  i = 3
+  i = 0
 
   return dotSlideShow()
 }
 function newControler2(x)
 {
-  i = 2
+  i = 1
 
   return dotSlideShow()
 }
 function newControler3(x)
 {
-  i = 1
+  i = 2
 
   return dotSlideShow()
 }
