@@ -301,7 +301,7 @@ rem;
 @media screen and (max-width : 800px ) {
   
     /* *******************  nav ************************** */
- .nav-div{
+  .nav-div{
     
      background-color: black;
  
@@ -314,57 +314,77 @@ rem;
      background-color: black;
      height: 2vh;
  }
+
  .nav-heading{
-     font-size:20px;
-     margin-top: 0px;
+     font-size:2rem;
+     display: flex;
+    margin: 1rem;
+
  }
  .form{
-     display: flex;
-     flex-wrap: wrap;
-     margin-top: 1.5rem;
-     font-size: 15px;
-     margin-left: 1rem;
+     margin-left: 2rem;
      margin-top: 1rem;
  
  }
+
  .search-input{
-     width: 70%;
+    height: 3.9vh;
+    width: 70%;
+  
  }
+
  
  .nav-links{
      margin-left: -1rem;
  
- font-size: 5x;  
    text-decoration: none;
      color: aliceblue;
  }
+ .search-text{
+    font-size: 1.2rem;
+}
+.search-input{
+    height: 3vh;
+
+
+    padding-top: 0.6rem;
+}
  .submit-button{
      background-color: red;
      border-color: black;
      color: aliceblue;
-     font-size: 15px;
+     font-size: 0.7rem;
+     padding: 0.0rem;
+     margin-left: 0.5rem;
+
  }
  .color-change{
      color: red;
- }
- .list-item{
-     margin-right: 1rem;
-     margin-top: 0px;
-     display: flex;
-     justify-content: space-between;
-     display: flex;
-     flex-wrap: wrap;
+     margin-right: 0.5rem;
      
- 
-     text-decoration: none;
-     color: black;
- 
  }
+.nav-links{
+    margin: 0.1rem;
+    font-size: 0.5em;
+}
  .list{
      font-size:20px;
      margin: 0.5rem;
  
  }
+ .list-item{
+    margin-top: 6rem;
+    margin-left: -5.2rem;
+ }
+ .theme-emoji{
+    padding: 0;
+margin-top: 0.4rem;
+margin-left: 0rem;
+margin-right: 0rem;
+
+    
+ }
+
  
  
  
