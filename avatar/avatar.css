@@ -284,8 +284,9 @@ rem;
 
 
 .links-div{
-   margin-top: 3rem; 
+   margin-top: 2.5rem; 
     position: fixed;
+    border-right: 0.2px solid white;
 }
 
 #unorder{
@@ -298,6 +299,7 @@ rem;
     text-decoration: none;
     color: white;
 }
+
 .content-div{
     margin-left: 20rem;
     margin-top: 6rem;
