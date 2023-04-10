@@ -71,6 +71,7 @@
    
     
 }
+.links-div
 #alert2-lines-3{
     background-color: rgb(50, 50, 226);
 
@@ -230,7 +231,7 @@ margin-left: 1rem;
 
 
 .links-div{
-    /* margin-top: 4rem; */
+   margin-top: 3rem; 
     position: fixed;
 }
 
