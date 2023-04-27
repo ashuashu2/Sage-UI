@@ -3,6 +3,13 @@ body{
     background-color: black;
    
 }
+iframe{
+    width: 50vw;
+      height: 150px;
+  
+  margin: 1.5rem;
+  margin-left: 0rem;   
+  }
 
 /* *******************  nav ************************** */
 
@@ -20,6 +27,7 @@ body{
     height: 15vh;
     width: 100%;
     background-color: rgb(4, 6, 8);
+    z-index: 5;
 }
 
 .nav-container{
@@ -97,16 +105,6 @@ rem;
 
 
 
-
-/* ****************text area************ */
-
-.text-area{
-    margin-top: 2rem;
-    width: 85%;
-    height: 15vh;
-    background-color: black;
-    color: bisque;
-}
 
 
 /* ***************** Round Images ********** */
@@ -203,6 +201,7 @@ rem;
     text-decoration: none;
     color: white;
 }
+
 .link-items-li:hover{
     background-color: rgb(196, 18, 18);
 }   .active-link{
@@ -233,7 +232,6 @@ rem;
    
 }
 .arrow-button-2{
-    /* background-color: aliceblue; */
     font-size: 2rem;
     right: 0px;
     color:  rgb(224, 38, 38) ;
@@ -247,7 +245,6 @@ rem;
     justify-content: space-between;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  /* background-color: aliceblue; */
 
   
 }
@@ -256,7 +253,6 @@ rem;
     height: 5ch;
     color: rgb(71, 42, 35);
     background-color: aliceblue;
-    dis
 
 }
 

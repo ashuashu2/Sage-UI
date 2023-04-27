@@ -3,25 +3,37 @@
 /* *********** badge on cart ********* */
 
 .cart-badge-container{
-    /* border: 1px solid; */
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    border: 1px solid white;
+    width: 100%;
     margin-bottom : 2rem ;
-    background-color: aliceblue;
-    border-radius: 50%;
+ 
 
+
+}
+.cart-badge-div{
     position: relative;
+   
+}
+.cart-badge-image{
+    height: 3rem;
+    border-radius: 50%;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(100%) contrast(100%);
+    
 }
 .cart-badge{
-    justify-content: center;
-    background-color: black;
+    background-color: white;
+  color: black;
+  padding: 0.2rem;
+  border-radius: 50%;
+    font-size: 1.2rem;
 
     position: absolute;
-    top: -0.5rem;
-        right:0.5rem;
+    bottom: 10px;
+        right:-5px;
 }
 
 
@@ -30,55 +42,73 @@
 /* *********** badge on notification ********* */
 
 .notification-badge-container{
-    /* border: 1px solid; */
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    border: 1px solid white;
+
+    width: 100%;
     margin-bottom : 2rem ;
-    position: relative;
-    background-color: aliceblue;
-    border-radius: 50%;
 
 
 }
-.notification-badge{
-border: 1px ;
-border-radius: 40%;
-font-size: large;
-    background-color: tomato;
 
-    position: absolute;
-    top: -1rem;
-        right:0.5rem;
+.notification-badge-div{
+    position: relative;
+}
+.notification-badge-image{
+    height: 3rem;
+    border-radius: 50%;
+
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(100%) contrast(100%);
+
+}
+.notification-badge{
+    background-color: white;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 50%;
+      font-size: 1.2rem;
+  
+      position: absolute;
+      bottom: 10px;
+          right:-15px;
 }
 
 /* *********** badge on wishlist ********* */
 
 .wishlist-badge-container{
-    /* border: 1px solid; */
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    border: 1px solid white;
+    width: 100%;
     margin-bottom : 2rem ;
-    position: relative;
-    background-color: aliceblue;
-    border-radius: 50%;
 
+}
+.wishlist-badge-div{
+    position: relative;
+
+}
+.wishlist-badge-image{
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(100%) contrast(100%);
 
 }
 .wishlist-badge{
-border: 1px ;
-border-radius: 40%;
-font-size: large;
-    background-color: tomato;
+ background-color: white;
+  color: black;
+  padding: 0.2rem;
+  border-radius: 50%;
+    font-size: 1.2rem;
 
     position: absolute;
-    top: -1rem;
-        right:0.5rem;
+    bottom: 10px;
+        right:-15px;
 }
 
 
@@ -86,29 +116,37 @@ font-size: large;
 /* *********** badge on avatar ********* */
 
 .avatar-badge-container{
-    /* border: 1px solid; */
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    border: 1px solid white;
+    width: 100%;
     margin-bottom : 2rem ;
-    position: relative;
-    background-color: aliceblue;
-    border-radius: 50%;
 
+
+}
+.avatar-badge-div{
+    position: relative;
+
+}
+.avatar-badge-image{
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(5deg) brightness(100%) contrast(100%);
 
 }
 .avatar-badge{
 border: 1px ;
 border-radius: 50%;
-font-size: large;
+font-size: x-large;
     background-color: green;
     color: green;
 
     position: absolute;
-    top: -1rem;
-        right:0.5rem;
+    bottom: 5px;
+    right:0px;
 }
 
 
@@ -116,29 +154,31 @@ font-size: large;
 /* *********** badge on avatar ********* */
 
 .message-badge-container{
-    /* border: 1px solid; */
-    height: 5rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8%;
+    border: 1px solid white;
+    width: 100%;
     margin-bottom : 2rem ;
-    position: relative;
-    background-color: aliceblue;
-    border-radius: 50%;
 
 
 }
+.message-badge-div{
+    position: relative;
+
+}
+
 .message-badge{
-border: 1px ;
-border-radius: 40%;
-font-size: large;
     background-color: blue;
     color: white;
-
-    position: absolute;
-    top: -1rem;
-        right:0.2rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+      font-size: 1.2rem;
+  
+      position: absolute;
+      bottom: 0px;
+          right:-15px;
 }
 
 
@@ -164,7 +204,7 @@ body{
 
 
 .footer{
-    visibility:hidden;
+  display: none;
 }
 .nav-div{
     position: fixed;
@@ -172,6 +212,7 @@ body{
     height: 15vh;
     width: 100%;
     background-color: rgb(4, 6, 8);
+    z-index: 5;
 }
 
 .nav-container{
@@ -252,13 +293,14 @@ rem;
 
 /* ****************text area************ */
 
-.text-area{
-    margin-top: 2rem;
-    width: 85%;
-    height: 15vh;
-    background-color: black;
-    color: bisque;
-}
+
+iframe{
+    width: 50vw;
+      height: 200px;
+  
+  margin: 1.5rem;
+  margin-left: 0rem;   
+  }
 
 
 
@@ -523,8 +565,8 @@ margin-right: 0rem;
  
  
      }
-     .footer{
-         visibility: unset;
+      .footer{
+        display: unset;
      }
    .links2-div {
      margin-top: 5rem;

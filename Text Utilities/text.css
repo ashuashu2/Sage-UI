@@ -82,7 +82,7 @@ body{
 
 
 .footer{
-    visibility:hidden;
+  display: none;
 }
 .nav-div{
     position: fixed;
@@ -90,6 +90,7 @@ body{
     height: 15vh;
     width: 100%;
     background-color: rgb(4, 6, 8);
+    z-index: 5;
 }
 
 .nav-container{
@@ -166,17 +167,6 @@ rem;
 
 
 
-
-
-/* ****************text area************ */
-
-.text-area{
-    margin-top: 2rem;
-    width: 85%;
-    height: 15vh;
-    background-color: black;
-    color: bisque;
-}
 
 
 
@@ -441,8 +431,8 @@ margin-right: 0rem;
  
  
      }
-     .footer{
-         visibility: unset;
+      .footer{
+        display: unset;
      }
    .links2-div {
      margin-top: 5rem;

@@ -1,3 +1,11 @@
+iframe{
+    width: 50vw;
+      height: 150px;
+  
+  margin: 1.5rem;
+  margin-left: 0rem;   
+  }
+
 /* *****************nav*********************** */
 
 
@@ -8,26 +16,121 @@
 
 
 .sign-in-form{
-    border: 2px solid rgb(243, 233, 233) ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 30vh;
-    width: 40%;
+    background-color: rgb(13, 21, 27);
+width: 50%;
+border-radius:3rem;
+border: 1px solid saddlebrown;
+margin: auto;
+margin-top: 2rem;
+
+
+ 
+}
+.sign-in-form-area{
+    width: 60%;
+    margin-top: 3rem;
+    padding: 2rem;
+    padding-right: 5rem;
+    text-align: center;
+    
+   
+
+}
+.sign-in-input{
+    
+    padding: 0.5rem 2rem;
+    margin: 0.2rem;
+    border: transparent;
+    outline: none;
+
+}
+input::placeholder{
+    color: saddlebrown;
+    font-weight: bolder;
+}
+legend{
+    font-weight: bolder;
+
 }
 
+.sign-in-form-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(94, 37, 37);
+    color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 1px solid saddlebrown;
+    margin-left: 2rem;
+
+    
+}
+fieldset{
+    margin: 0.5rem;
+}
+
+.sign-in-form-button:hover{
+
+    color: black;
+    background-color: red;
+}
+
+  
 
 
 /* *************    sign -up - form   ***************** */
 
 
 .sign-up-form{
-    border: 2px solid rgb(241, 236, 236) ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 50vh;
-    width: 40%;
+    background-color: rgb(13, 21, 27);
+    width: 50%;
+    border-radius:3rem;
+    border: 1px solid saddlebrown;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+
+
+.sign-up-form-area{
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    padding-right: 5rem;
+    text-align: center;
+    
+   
+
+}
+.sign-up-input{
+    
+    padding: 0.5rem 2rem;
+    margin: 0.2rem;
+    border: transparent;
+    outline: none;
+
+}
+
+
+.sign-up-form-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(94, 37, 37);
+    color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 1px solid saddlebrown;
+    margin-left: 4rem;
+
+    
+}
+
+.sign-up-form-button:hover{
+
+    color: black;
+    background-color: red;
 }
 
 
@@ -36,13 +139,64 @@
 
 
 .validation-form{
-    border: 2px solid rgb(250, 245, 245) ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 30vh;
-    width: 30%;
+    background-color: rgb(13, 21, 27);
+    width: 50%;
+    border-radius:3rem;
+    border: 1px solid saddlebrown;
+    margin: auto;
+    margin-top: 2rem;
 }
+.validation-form-area{
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    padding-right: 5rem;
+    text-align: center;
+    
+   
+
+}
+
+.sign-up-form-area{
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    padding-right: 5rem;
+    text-align: center;
+    
+   
+
+}
+.validation-input{
+    
+    padding: 0.5rem 2rem;
+    margin: 0.2rem;
+    border: transparent;
+    outline: none;
+
+}
+
+
+.validation-form-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(94, 37, 37);
+    color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 1px solid saddlebrown;
+    margin-left: 2rem;
+
+    
+}
+.validation-form-button:hover{
+
+    color: black;
+    background-color: red;
+}
+
 
 
 
@@ -85,7 +239,7 @@ body{
 
 
 .footer{
-    visibility:hidden;
+  display: none;
 }
 .nav-div{
     position: fixed;
@@ -93,6 +247,7 @@ body{
     height: 15vh;
     width: 100%;
     background-color: rgb(4, 6, 8);
+    z-index: 5;
 }
 
 .nav-container{
@@ -169,17 +324,6 @@ rem;
 
 
 
-
-
-/* ****************text area************ */
-
-.text-area{
-    margin-top: 2rem;
-    width: 85%;
-    height: 15vh;
-    background-color: black;
-    color: bisque;
-}
 
 
 
@@ -444,8 +588,8 @@ margin-right: 0rem;
  
  
      }
-     .footer{
-         visibility: unset;
+      .footer{
+        display: unset;
      }
    .links2-div {
      margin-top: 5rem;

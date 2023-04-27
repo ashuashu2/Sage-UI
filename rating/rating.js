@@ -9,10 +9,10 @@ var ratings = document.querySelector(".rating-div")
         stars[i].starValue = (i+1)
         const arr1 = ["click", "mouseover", "mouseout"]
       
-        arr1.forEach(function(e){
-            stars[i].addEventListener(e,showRating)
-            
-        })
+        for (let j = 0; j < arr1.length; j++) {
+            stars[i].addEventListener(arr1[j], showRating);
+          }
+       
       
     }
 
@@ -34,6 +34,7 @@ function tryAgains(){
 
 
 function showRating(e){
+    
 let type = e.type
 let starValue = this.starValue
 stars.forEach(function(element,index) {
