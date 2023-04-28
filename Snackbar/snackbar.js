@@ -1,58 +1,222 @@
-var errorButton = document.querySelector("#error-button");
-var loadingButton = document.querySelector("#loading-button");
-var wishlistButton = document.querySelector("#wishlist-button");
-var snackbarDiv = document.querySelector(".snackbar-1")
+// ****************  basic snackbar  ************************
 
-var errorMsg = document.querySelector("#error-msg");
-var loadingMsg = document.querySelector("#loading-msg");
-var wishlistMsg = document.querySelector("#wishlist-msg");
+var addToCartButton = document.querySelector("#add-to-card-button");
+var sentMailButton = document.querySelector("#sent-mail-button");
+var removeFromCartButton = document.querySelector("#remove-cart-button");
 
-
-
-
-
-errorButton.addEventListener("click",  errorButtonHandler)
+var OutputDiv = document.querySelector("#output-div");
 
 
 
 
 
-function errorButtonHandler(){
-    errorMsg.style.visibility = "visible";
-    loadingMsg.style.visibility="hidden"
-    wishlistMsg.style.visibility = "hidden";
-    snackbarDiv.style.visibility = "visible";
+
+addToCartButton.addEventListener("click",  addToCartButtonHandler)
+
+
+
+
+
+function addToCartButtonHandler(){
+    OutputDiv.innerText = "Added To Cart 🛒"
+    setTimeout(() => {
+        OutputDiv.innerText = ""
+    
+            
+        }, 1000);
+    OutputDiv.classList.remove("mail")
+    OutputDiv.classList.remove("remove")
+
+    OutputDiv.classList.add("add")
+
+
+
+    
 
 
 
 }
 
-loadingButton.addEventListener("click",  loadingButtonHandler)
+sentMailButton.addEventListener("click",  sentMailButtonHandler)
     
 
 
-function loadingButtonHandler(){
-    loadingMsg.style.visibility="visible"
+function sentMailButtonHandler(){
+    OutputDiv.innerHTML = "Sending Mail 📧"
+    setTimeout(() => {
+        OutputDiv.innerText = ""
+    
+            
+        }, 1000);
+    OutputDiv.classList.remove("remove")
+    OutputDiv.classList.remove("add")
+    OutputDiv.classList.add("mail")
+
 
 
     
-    errorMsg.style.visibility = "hidden";
-    
-    wishlistMsg.style.visibility = "hidden";
-    snackbarDiv.style.visibility = "visible";
 
 
 }
 
-wishlistButton.addEventListener("click",  wishlistButtonHandler)
+removeFromCartButton.addEventListener("click",  removeFromCartButtonHandler)
     
 
 
-function wishlistButtonHandler(){
-    errorMsg.style.visibility = "hidden";
-    loadingMsg.style.visibility="hidden"
-    wishlistMsg.style.visibility = "visible";
-    snackbarDiv.style.visibility = "visible";
+function removeFromCartButtonHandler(){
+    OutputDiv.innerText = "Remove From Cart 🛒"
+    setTimeout(() => {
+    OutputDiv.innerText = ""
+
+        
+    }, 1000);
+    OutputDiv.classList.remove("add")
+    OutputDiv.classList.remove("mail")
+
+    OutputDiv.classList.add("remove")
+
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// *****************    positioned snackbar      *****************
+
+
+
+var  topLeftButton = document.querySelector("#top-left-button")
+var topRightButton = document.querySelector("#top-right-button")
+var bottomRightButton = document.querySelector("#bottom-right-button")
+var bottomLeftButton = document.querySelector("#bottom-left-button")
+var positionedOutputDiv = document.querySelector(".positioned-snackbar-output-div")
+
+
+topLeftButton.addEventListener("click" ,topLeftButtonHandler)
+topRightButton.addEventListener("click" ,topRightButtonHandler)
+bottomRightButton.addEventListener("click" ,bottomRightButtonHandler)
+bottomLeftButton.addEventListener("click" ,bottomLeftButtonHandler)
+
+
+function topLeftButtonHandler(){
+    positionedOutputDiv.innerHTML= "Top Left"
+    positionedOutputDiv.style.visibility = "visible"
+    positionedOutputDiv.classList.remove("bottomLeft")
+    positionedOutputDiv.classList.remove("bottomRight")
+    positionedOutputDiv.classList.remove("topRight")
+    positionedOutputDiv.classList.add("topLeft")
+    setTimeout(() => {
+    positionedOutputDiv.style.visibility = "hidden"
+
+        
+    }, 700);
+
+}
+
+function topRightButtonHandler(){
+    positionedOutputDiv.innerHTML= "Top Right"
+    positionedOutputDiv.style.visibility = "visible"
+    positionedOutputDiv.classList.remove("topLeft")
+    positionedOutputDiv.classList.remove("bottomRight")
+    positionedOutputDiv.classList.remove("bottomLeft")
+
+    positionedOutputDiv.classList.add("topRight")
+    setTimeout(() => {
+        positionedOutputDiv.style.visibility = "hidden"
+    
+            
+        }, 700);
+
+}
+
+function bottomRightButtonHandler(){
+    positionedOutputDiv.innerHTML= "Bottom Right"
+    positionedOutputDiv.style.visibility = "visible"
+    positionedOutputDiv.classList.remove("topLeft")
+    positionedOutputDiv.classList.remove("bottomLeft")
+    positionedOutputDiv.classList.remove("topRight")
+    positionedOutputDiv.classList.add("bottomRight")
+    setTimeout(() => {
+        positionedOutputDiv.style.visibility = "hidden"
+    
+            
+        }, 700);
+    
+}
+
+
+function bottomLeftButtonHandler(){
+
+    positionedOutputDiv.innerHTML= "Bottom Left"
+    positionedOutputDiv.style.visibility = "visible"
+    positionedOutputDiv.classList.remove("topLeft")
+    positionedOutputDiv.classList.remove("bottomRight")
+    positionedOutputDiv.classList.remove("topRight")
+    positionedOutputDiv.classList.add("bottomLeft")
+    setTimeout(() => {
+        positionedOutputDiv.style.visibility = "hidden"
+    
+            
+        }, 700);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **************     a toast button        ***************
+var toastButton = document.querySelector("#A-toast-button")
+var toastDiv = document.querySelector(".a-toast-output-div")
+var crossButton = document.querySelector(".a-toast-x-button")
+
+
+toastButton.addEventListener("click",toastButtonHandler)
+crossButton.addEventListener("click",crossButtonHandler)
+
+
+function toastButtonHandler(){
+    toastDiv.style.visibility = "visible"
+    setTimeout(() => {
+    toastDiv.style.visibility = "hidden"
+        
+    }, 2000);
+
+}
+function crossButtonHandler(){
+    toastDiv.style.visibility = "hidden"
+   
+
+}
+
+

@@ -1,7 +1,13 @@
 /* *****************nav*********************** */
 
 
+iframe {
+    width: 50vw;
+    height: 150px;
 
+    margin: 1.5rem;
+    margin-left: 0rem;
+}
 
 
 
@@ -92,8 +98,7 @@ border-radius: 0.7rem;
 .theme-emoji{
 margin-right: 1rem;
 margin-top: 0.8rem;
-margin-left: 1
-rem;
+margin-left: 1rem;
     background-color: red;
     border-radius: 0.5rem;
     padding: 0.05rem;
@@ -207,6 +212,7 @@ rem;
     align-items: center;
     margin: 2rem;
     font-size: 2rem;
+    color: greenyellow;
     
 
 }
@@ -224,20 +230,27 @@ rem;
     text-align: center;
     width: 20%;
     margin-top: 3rem;
+    background-color:red;
+    cursor: pointer;
+    color: wheat;
+
 }
 .orange{
     color: orangered;
    
 }
 .red{
-    color: red;
+    color: black;
+    font-weight: bolder;
     border-radius: 50%;
-    border: 2px solid red;
+    background-color: greenyellow;
+
 }
 .output{
     margin-top: 2rem;
     margin-bottom: 1rem;
     background-color: rgb(15, 19, 22);
+    color: greenyellow;
     text-align: center;
     height: 100px;
     width: 400px;
@@ -249,6 +262,9 @@ rem;
     text-align: center;
     width: 20%;
     margin-top: 3rem;
+    background-color:red;
+    cursor: pointer;
+    color: white;
 }
 
 

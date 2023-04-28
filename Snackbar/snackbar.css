@@ -1,4 +1,10 @@
+iframe {
+    width: 50vw;
+    height: 150px;
 
+    margin: 1.5rem;
+    margin-left: 0rem;
+}
 
 /* ******************* .snackbar-*********** */
 
@@ -7,49 +13,167 @@
 
 
 
-
-#error-button{
-font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
-color: white;
-}
-#loading-button{
-font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
-color: white;
-
-}
-#wishlist-button{
-font-size: large;
-border: 2px solid black;
-background-color: rgb(212, 45, 45) ;
-color: white;
+.basic-snackbar-button-div {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid rgb(88, 80, 80);
+    border-radius: 1rem;
+    margin: 1rem;
 
 }
 
+#add-to-card-button {
+    font-size: large;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background-color: rgb(48, 39, 39);
+
+    color: white;
+}
+
+#sent-mail-button {
+    font-size: large;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background-color: rgb(248, 12, 12);
+    color: white;
+
+}
+
+#remove-cart-button {
+    font-size: large;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background-color: blueviolet;
+    color: white;
+
+}
 
 
-#error-msg{
-    visibility: hidden;
+
+
+.snackbar-1 {
+
+    background-color: rgb(61, 54, 39);
+    height: 15vh;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
 }
-#loading-msg{
-    visibility: hidden;
+
+.add {
+    color: yellowgreen;
+    font-size: xx-large;
+
 }
-#wishlist-msg{
-    visibility: hidden;
+
+.mail {
+    font-size: xx-large;
+    color: green;
+
+
 }
-.snackbar-1{
-    border: 5px solid black;
-    background-color: rgb(10, 7, 1);
-    color: beige;
-    visibility: hidden;
+
+.remove {
+    font-size: xx-large;
+    color: rgb(209, 62, 62);
+
+}
+
+
+
+
+
+
+
+
+/* ***********   toast    ****************** */
+.a-toast-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#A-toast-button {
+    background-color: red;
+    color: white;
+    font-size: large;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid aqua;
+    width: 20%;
+    cursor: pointer;
+}
+
+#A-toast-button:hover {
+    background-color: rgb(182, 95, 95);
+    color: rgb(44, 12, 12);
+
+}
+
+.a-toast-output-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 8vh;
+    border-radius: 1.5rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+    background-color: rgb(235, 153, 46);
+    padding-right: 2rem;
+    padding-left: 1.3rem;
+
+    color: rgb(34, 14, 14);
+    border: 1px solid red;
     position: fixed;
-    bottom: 0rem;
-    right: 5rem;
+    bottom: 10px;
+    right: 20px;
+    visibility: hidden;
+    
 
 
+}
+
+.a-toast-x-button {
+    margin-left: auto;
+
+    background-color: black;
+    z-index: 2;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.a-toast-x-button:hover {
+
+    background-color: red;
+    color: whitesmoke;
 
 }
 
@@ -57,6 +181,76 @@ color: white;
 
 
 
+
+
+
+/* **************** positioned snackbar        ************** */
+
+.positioned-snackbar-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.positioned-snackbar-button{
+    background-color: brown;
+    color:  white;
+    text-align: center;
+    font-size: larger;
+    margin: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid wheat;
+    cursor: pointer;
+}
+.positioned-snackbar-button:hover{
+    background-color: yellowgreen;
+    color:  black;
+
+}
+.positioned-snackbar-button:focus{
+    background-color: yellowgreen;
+    color:  black;
+
+}
+
+.positioned-snackbar-output-div{
+    background-color: yellowgreen;
+    color:  black;
+    font-size: 1.2rem;
+    width: 15%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 55;
+    visibility: hidden;
+   
+}
+.topLeft{
+    position: fixed;
+    top: 100px;
+    left: 1%;
+}
+.topRight{
+    position: fixed;
+    top: 100px;
+    right: 1%;
+}
+
+.bottomLeft{
+    position: fixed;
+    bottom: 40px;
+    left: 1%;
+}
+.bottomRight{
+    position: fixed;
+    bottom: 40px;
+    right: 1%;
+
+}
 
 
 
@@ -78,19 +272,20 @@ color: white;
 
 
 
-body{
+body {
     color: aliceblue;
     background-color: black;
-   
+
 }
 
 /* *******************  nav ************************** */
 
 
-.footer{
-  display: none;
+.footer {
+    display: none;
 }
-.nav-div{
+
+.nav-div {
     position: fixed;
     top: 0px;
     height: 15vh;
@@ -99,73 +294,85 @@ body{
     z-index: 5;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     background-color: black;
-    
-}.home-link-tag{
-    color: white;
- text-decoration: none;
+
 }
-.nav-heading{
+
+.home-link-tag {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-heading {
     font-size: 2.5rem;
     margin: 0.8rem;
 }
-.form{
+
+.form {
     margin-left: auto;
     margin-top: 1.4rem;
 
 }
-.search-text{
+
+.search-text {
     font-size: 2rem;
 }
-.search-input{
+
+.search-input {
     height: 4vh;
     padding-top: 0.6rem;
 }
 
-.submit-button{
-    background-color:red;
+.submit-button {
+    background-color: red;
     font-size: 1rem;
     padding-top: 0.22rem;
 }
-.color-change{
+
+.color-change {
     color: red;
 }
-.docs-text{
+
+.docs-text {
     color: red;
 }
-.github-text{
-background-color: red;
-padding: 0.2rem;
-border-radius: 0.7rem;
+
+.github-text {
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 0.7rem;
 }
-.list-item{
+
+.list-item {
     margin: 1rem;
     margin-left: auto;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     color: black;
-  
+
 
 }
-.theme-emoji{
-margin-right: 1rem;
-margin-top: 0.8rem;
-margin-left: 1
-rem;
+
+.theme-emoji {
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 1 rem;
     background-color: red;
     border-radius: 0.5rem;
     padding: 0.05rem;
-    
+
 }
-.list{
+
+.list {
     font-size: 1.5rem;
     margin: 1rem;
-    
+
 }
-.nav-links{
+
+.nav-links {
     text-decoration: none;
     color: aliceblue;
 }
@@ -182,41 +389,48 @@ rem;
 /* ********************       main div         ******************************* */
 
 
-.main-div{
+.main-div {
     display: grid;
     margin-top: 5rem;
-    grid-template-columns:  80% 30% 30%;
+    grid-template-columns: 80% 30% 30%;
 }
 
 
-.links-div{
-   margin-top: 2.5rem; 
+.links-div {
+    margin-top: 2.5rem;
     position: fixed;
     border-right: 0.2px solid white;
 }
 
-#unorder{
+#unorder {
     font-size: 1.5rem;
     margin: 1rem;
     color: black;
-    
+
 }
-.link-items{
+
+.link-items {
     text-decoration: none;
     color: white;
 }
-.link-items-li:hover{
+
+.link-items-li:hover {
     background-color: rgb(196, 18, 18);
-}   .active-link{
+}
+
+.active-link {
     background-color: rgb(196, 18, 18);
-}.content-div{
+}
+
+.content-div {
     margin-left: 20rem;
     margin-top: 6rem;
-    
+
 }
-.information-div{
+
+.information-div {
     position: fixed;
-    right:  10px;
+    right: 10px;
     top: 12rem;
 }
 
@@ -224,38 +438,40 @@ rem;
 
 /* ***************arrow button************ */
 
-.arrow-button-1{
+.arrow-button-1 {
     font-size: 2rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
-   
+
 }
-.arrow-button-2{
+
+.arrow-button-2 {
     font-size: 2rem;
     right: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
     background-color: aliceblue;
 
 
-   
+
 }
-.arrow-button-container{
+
+.arrow-button-container {
     display: flex;
     justify-content: space-between;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
-  
+
 }
 
-.arrow-image{
+.arrow-image {
     height: 5ch;
     color: rgb(71, 42, 35);
     background-color: aliceblue;
-    
-    
+
+
 
 }
 
@@ -294,197 +510,201 @@ rem;
 /* ********************  responsive  screen *************** */
 
 
- 
-@media screen and (max-width : 800px ) {
-  
+
+@media screen and (max-width : 800px) {
+
     /* *******************  nav ************************** */
-  .nav-div{
-    
-     background-color: black;
- 
-    position: unset;
-     
- }
- 
- .nav-container{
-     display: flex;
-     background-color: black;
-     height: 2vh;
- }
+    .nav-div {
 
- .nav-heading{
-     font-size:2rem;
-     display: flex;
-    margin: 1rem;
+        background-color: black;
 
- }
- .form{
-     margin-left: 2rem;
-     margin-top: 1rem;
- 
- }
+        position: unset;
 
- .search-input{
-    height: 3.9vh;
-    width: 70%;
-  
- }
-
- 
- .nav-links{
-     margin-left: -1rem;
- 
-   text-decoration: none;
-     color: aliceblue;
- }
- .search-text{
-    font-size: 1.2rem;
-}
-.search-input{
-    height: 3vh;
-
-
-    padding-top: 0.6rem;
-}
- .submit-button{
-     background-color: red;
-     border-color: black;
-     color: aliceblue;
-     font-size: 0.7rem;
-     padding: 0.0rem;
-     margin-left: 0.5rem;
-
- }
- .color-change{
-     color: red;
-     margin-right: 0.5rem;
-     
- }
-.nav-links{
-    margin: 0.1rem;
-    font-size: 0.5em;
-}
- .list{
-     font-size:20px;
-     margin: 0.5rem;
- 
- }
- .list-item{
-    margin-top: 6rem;
-    margin-left: -5.2rem;
- }
- .theme-emoji{
-    padding: 0;
-margin-top: 0.4rem;
-margin-left: 0rem;
-margin-right: 0rem;
-
-    
- }
-
- 
- 
- 
- 
- 
- .main-div{
-     width: 90%;
-     margin-top: 0rem;
-     margin-left: -3rem;
- }
- 
- 
- /* **************   list    ************* */
- 
- 
- .links-div{
- margin-left: 3rem;  
- 
-     margin-top: 0srem;
- 
-     width: 100%;
     }
-    .link-items{
-     font-size: 1rem;
-     
+
+    .nav-container {
+        display: flex;
+        background-color: black;
+        height: 2vh;
     }
- #unorder{
-     visibility: hidden;
-     display: none;
- 
- }
-    .list-view-button{
-     
-     background-color: black;
-     visibility: visible;
- }
- .list-view-image{
-     height: 5vh;
-     width: 100%;
- }
- 
- 
- 
- 
- .content-div{
-         width: 100%;
-         margin-top: 2rem;
-         margin-left: 5rem;
-         position: relative;
- 
- 
-     }
-      .footer{
-        display: unset;
-     }
-   .links2-div {
-     margin-top: 5rem;
-     
-     color: black;
-     margin-left:-4rem;
-     display:grid;
-     gap: 20px;
-     grid-template-columns: 80px  80px 80px;
-     
-   }
-   .links2-li{
-     color: black;
-     margin: 5rem;
-   }
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
-   .information-div{
-         visibility: hidden;
-         display: none;
-     }
+    .nav-heading {
+        font-size: 2rem;
+        display: flex;
+        margin: 1rem;
+
+    }
+
+    .form {
+        margin-left: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    .search-input {
+        height: 3.9vh;
+        width: 70%;
+
+    }
 
 
-     .snackbar-1{
-        border: 5px solid black;
-        background-color: rgb(10, 7, 1);
-        color: beige;
+    .nav-links {
+        margin-left: -1rem;
+
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .search-text {
+        font-size: 1.2rem;
+    }
+
+    .search-input {
+        height: 3vh;
+
+
+        padding-top: 0.6rem;
+    }
+
+    .submit-button {
+        background-color: red;
+        border-color: black;
+        color: aliceblue;
+        font-size: 0.7rem;
+        padding: 0.0rem;
+        margin-left: 0.5rem;
+
+    }
+
+    .color-change {
+        color: red;
+        margin-right: 0.5rem;
+
+    }
+
+    .nav-links {
+        margin: 0.1rem;
+        font-size: 0.5em;
+    }
+
+    .list {
+        font-size: 20px;
+        margin: 0.5rem;
+
+    }
+
+    .list-item {
+        margin-top: 6rem;
+        margin-left: -5.2rem;
+    }
+
+    .theme-emoji {
+        padding: 0;
+        margin-top: 0.4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+
+    }
+
+
+
+
+
+
+    .main-div {
+        width: 90%;
+        margin-top: 0rem;
+        margin-left: -3rem;
+    }
+
+
+    /* **************   list    ************* */
+
+
+    .links-div {
+        margin-left: 3rem;
+
+        margin-top: 0srem;
+
+        width: 100%;
+    }
+
+    .link-items {
+        font-size: 1rem;
+
+    }
+
+    #unorder {
         visibility: hidden;
-        position: fixed;
-        bottom: 20rem;
-        right: 5rem;
-    
-    
-    
+        display: none;
+
     }
-    
-     
-    
- 
-     
- } 
+
+    .list-view-button {
+
+        background-color: black;
+        visibility: visible;
+    }
+
+    .list-view-image {
+        height: 5vh;
+        width: 100%;
+    }
+
+
+
+
+    .content-div {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        position: relative;
+
+
+    }
+
+    .footer {
+        display: unset;
+    }
+
+    .links2-div {
+        margin-top: 5rem;
+
+        color: black;
+        margin-left: -4rem;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 80px 80px 80px;
+
+    }
+
+    .links2-li {
+        color: black;
+        margin: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .information-div {
+        visibility: hidden;
+        display: none;
+    }
+
+
+
+
+
+
+
+}

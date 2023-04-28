@@ -1,6 +1,11 @@
-/* *****************nav*********************** */
 
+iframe {
+    width: 50vw;
+    height: 150px;
 
+    margin: 1.5rem;
+    margin-left: 0rem;
+}
 
 
 /* ************ grid with two items ********* */
@@ -8,16 +13,21 @@
 
 
 
-.grid-item-two{
+.grid-tamplate-column{
+    background-color: rgb(214, 19, 19);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
 }
 
-.grid1-items{
+.grid1-columns{
     border: 1px solid rgb(252, 246, 246);
+    background-color: brown;
     color:rgb(245, 240, 240);
-    font-size: x-large;
-    padding: 1rem;
+    font-size: larger;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
 
 
 }
@@ -27,19 +37,71 @@
 /* ************ grid with two items ********* */
 
 
+.Header-div{
+    margin: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: header;
 
+    background-color: rgb(243, 34, 34);
+  
+    height: 7vh;
+}
+.Main-content-div{
+    margin: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area:  mainContent;
 
-.grid-item-three{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    background-color: palevioletred;
+
+    height: 40vh;
+    
+}
+.Sidebar-div{
+    margin: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: sidebar;
+
+    background-color: blueviolet;
+    
+    height: 40vh;
+
+    
+}
+.Footer-div{
+    margin: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer ;
+  
+    height: 10vh;
+
+    background-color: yellowgreen;
+
+    
 }
 
-.grid2-items{
-    border: 1px solid rgb(252, 244, 244);
-    font-size: x-large;
+.grid-template-area{
+    background-color: rgb(42, 45, 46);
     padding: 1rem;
-
-
+    display: grid;
+    grid-template-areas: "header header header"
+                        "sidebar mainContent mainContent" 
+                        "footer footer footer ";    
 }
 
 
@@ -49,17 +111,23 @@
 
 
 
-.grid-item-five{
+.grid-row-div{
+    background-color: rgb(214, 19, 19);
     display: grid;
-    grid-template-columns:   1fr  1fr 1fr; 
+    grid-template-columns: 1fr ;
+    padding: 1rem;
    
 
 }
 
-.grid3-items{
-    border: 1px solid rgb(245, 238, 238);
-    font-size: x-large;
-    padding: 1rem;
+.grid-rows{
+    border: 1px solid rgb(252, 246, 246);
+    background-color: brown;
+    color:rgb(245, 240, 240);
+    font-size: larger;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
 
 
 }

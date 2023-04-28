@@ -29,8 +29,7 @@ if(i < 0 ){
 
 }
 slideShow()
-function controler(x)
-{
+function controler(x){
   i = i + x
 
   return slideShow()

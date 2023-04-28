@@ -1,10 +1,10 @@
-iframe{
+iframe {
     width: 50vw;
-      height: 150px;
-  
-  margin: 1.5rem;
-  margin-left: 0rem;   
-  }
+    height: 150px;
+
+    margin: 1.5rem;
+    margin-left: 0rem;
+}
 
 /* *****************nav*********************** */
 
@@ -15,45 +15,49 @@ iframe{
 /* *************    sign -in - form   ***************** */
 
 
-.sign-in-form{
+.sign-in-form {
     background-color: rgb(13, 21, 27);
-width: 50%;
-border-radius:3rem;
-border: 1px solid saddlebrown;
-margin: auto;
-margin-top: 2rem;
+    width: 50%;
+    border-radius: 3rem;
+    border: 1px solid saddlebrown;
+    margin: auto;
+    margin-top: 2rem;
 
 
- 
+
 }
-.sign-in-form-area{
+
+.sign-in-form-area {
     width: 60%;
     margin-top: 3rem;
     padding: 2rem;
     padding-right: 5rem;
     text-align: center;
-    
-   
+
+
 
 }
-.sign-in-input{
-    
+
+.sign-in-input {
+
     padding: 0.5rem 2rem;
     margin: 0.2rem;
     border: transparent;
     outline: none;
 
 }
-input::placeholder{
+
+input::placeholder {
     color: saddlebrown;
     font-weight: bolder;
 }
-legend{
+
+legend {
     font-weight: bolder;
 
 }
 
-.sign-in-form-button{
+.sign-in-form-button {
     width: 10rem;
     height: 3rem;
     background-color: rgb(94, 37, 37);
@@ -63,49 +67,51 @@ legend{
     border: 1px solid saddlebrown;
     margin-left: 2rem;
 
-    
+
 }
-fieldset{
+
+fieldset {
     margin: 0.5rem;
 }
 
-.sign-in-form-button:hover{
+.sign-in-form-button:hover {
 
     color: black;
     background-color: red;
 }
 
-  
+
 
 
 /* *************    sign -up - form   ***************** */
 
 
-.sign-up-form{
+.sign-up-form {
     background-color: rgb(13, 21, 27);
     width: 50%;
-    border-radius:3rem;
+    border-radius: 3rem;
     border: 1px solid saddlebrown;
     margin: auto;
     margin-top: 2rem;
-    
+
 }
 
 
 
-.sign-up-form-area{
+.sign-up-form-area {
     width: 50%;
     margin-top: 1rem;
     margin-left: 1.5rem;
     padding: 1rem;
     padding-right: 5rem;
     text-align: center;
-    
-   
+
+
 
 }
-.sign-up-input{
-    
+
+.sign-up-input {
+
     padding: 0.5rem 2rem;
     margin: 0.2rem;
     border: transparent;
@@ -114,7 +120,7 @@ fieldset{
 }
 
 
-.sign-up-form-button{
+.sign-up-form-button {
     width: 10rem;
     height: 3rem;
     background-color: rgb(94, 37, 37);
@@ -124,10 +130,10 @@ fieldset{
     border: 1px solid saddlebrown;
     margin-left: 4rem;
 
-    
+
 }
 
-.sign-up-form-button:hover{
+.sign-up-form-button:hover {
 
     color: black;
     background-color: red;
@@ -138,39 +144,41 @@ fieldset{
 /* *************   validation form  ***************** */
 
 
-.validation-form{
+.validation-form {
     background-color: rgb(13, 21, 27);
     width: 50%;
-    border-radius:3rem;
+    border-radius: 3rem;
     border: 1px solid saddlebrown;
     margin: auto;
     margin-top: 2rem;
 }
-.validation-form-area{
+
+.validation-form-area {
     width: 50%;
     margin-top: 1rem;
     margin-left: 3rem;
     padding: 1rem;
     padding-right: 5rem;
     text-align: center;
-    
-   
+
+
 
 }
 
-.sign-up-form-area{
+.sign-up-form-area {
     width: 50%;
     margin-top: 1rem;
     margin-left: 1.5rem;
     padding: 1rem;
     padding-right: 5rem;
     text-align: center;
-    
-   
+
+
 
 }
-.validation-input{
-    
+
+.validation-input {
+
     padding: 0.5rem 2rem;
     margin: 0.2rem;
     border: transparent;
@@ -179,7 +187,7 @@ fieldset{
 }
 
 
-.validation-form-button{
+.validation-form-button {
     width: 10rem;
     height: 3rem;
     background-color: rgb(94, 37, 37);
@@ -189,9 +197,10 @@ fieldset{
     border: 1px solid saddlebrown;
     margin-left: 2rem;
 
-    
+
 }
-.validation-form-button:hover{
+
+.validation-form-button:hover {
 
     color: black;
     background-color: red;
@@ -204,10 +213,10 @@ fieldset{
 /* *************  different types of input  ***************** */
 
 
-.types-input{
-    border: 2px solid black ;
+.types-input {
+    border: 2px solid black;
     display: grid;
-    
+
     height: 90vh;
     width: 90%;
 }
@@ -229,19 +238,20 @@ fieldset{
 
 
 
-body{
+body {
     color: aliceblue;
     background-color: black;
-   
+
 }
 
 /* *******************  nav ************************** */
 
 
-.footer{
-  display: none;
+.footer {
+    display: none;
 }
-.nav-div{
+
+.nav-div {
     position: fixed;
     top: 0px;
     height: 15vh;
@@ -250,73 +260,85 @@ body{
     z-index: 5;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     background-color: black;
-    
-}.home-link-tag{
-    color: white;
- text-decoration: none;
+
 }
-.nav-heading{
+
+.home-link-tag {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-heading {
     font-size: 2.5rem;
     margin: 0.8rem;
 }
-.form{
+
+.form {
     margin-left: auto;
     margin-top: 1.4rem;
 
 }
-.search-text{
+
+.search-text {
     font-size: 2rem;
 }
-.search-input{
+
+.search-input {
     height: 4vh;
     padding-top: 0.6rem;
 }
 
-.submit-button{
-    background-color:red;
+.submit-button {
+    background-color: red;
     font-size: 1rem;
     padding-top: 0.22rem;
 }
-.color-change{
+
+.color-change {
     color: red;
 }
-.docs-text{
+
+.docs-text {
     color: red;
 }
-.github-text{
-background-color: red;
-padding: 0.2rem;
-border-radius: 0.7rem;
+
+.github-text {
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 0.7rem;
 }
-.list-item{
+
+.list-item {
     margin: 1rem;
     margin-left: auto;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     color: black;
-  
+
 
 }
-.theme-emoji{
-margin-right: 1rem;
-margin-top: 0.8rem;
-margin-left: 1
-rem;
+
+.theme-emoji {
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 1 rem;
     background-color: red;
     border-radius: 0.5rem;
     padding: 0.05rem;
-    
+
 }
-.list{
+
+.list {
     font-size: 1.5rem;
     margin: 1rem;
-    
+
 }
-.nav-links{
+
+.nav-links {
     text-decoration: none;
     color: aliceblue;
 }
@@ -336,41 +358,48 @@ rem;
 /* ********************       main div         ******************************* */
 
 
-.main-div{
+.main-div {
     display: grid;
     margin-top: 5rem;
-    grid-template-columns:  80% 30% 30%;
+    grid-template-columns: 80% 30% 30%;
 }
 
 
-.links-div{
-   margin-top: 2.5rem; 
+.links-div {
+    margin-top: 2.5rem;
     position: fixed;
     border-right: 0.2px solid white;
 }
 
-#unorder{
+#unorder {
     font-size: 1.5rem;
     margin: 1rem;
     color: black;
-    
+
 }
-.link-items{
+
+.link-items {
     text-decoration: none;
     color: white;
 }
-.link-items-li:hover{
+
+.link-items-li:hover {
     background-color: rgb(196, 18, 18);
-}   .active-link{
+}
+
+.active-link {
     background-color: rgb(196, 18, 18);
-}.content-div{
+}
+
+.content-div {
     margin-left: 20rem;
     margin-top: 6rem;
-    
+
 }
-.information-div{
+
+.information-div {
     position: fixed;
-    right:  10px;
+    right: 10px;
     top: 12rem;
 }
 
@@ -378,38 +407,43 @@ rem;
 
 /* ***************arrow button************ */
 
-.arrow-button-1{
+.arrow-button-1 {
     font-size: 2rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
-   
+
 }
-.arrow-button-2{
+
+.arrow-button-2 {
     font-size: 2rem;
     right: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
     background-color: aliceblue;
 
 
-   
+
+
 }
-.arrow-button-container{
+
+.arrow-button-container {
     display: flex;
     justify-content: space-between;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
-  
+
+
 }
 
-.arrow-image{
+.arrow-image {
     height: 5ch;
     color: rgb(71, 42, 35);
     background-color: aliceblue;
-    
-    
+
+
+
 
 }
 
@@ -448,185 +482,196 @@ rem;
 /* ********************  responsive  screen *************** */
 
 
- 
-@media screen and (max-width : 800px ) {
-  
+
+@media screen and (max-width : 800px) {
+
     /* *******************  nav ************************** */
-  .nav-div{
-    
-     background-color: black;
- 
-    position: unset;
-     
- }
- 
- .nav-container{
-     display: flex;
-     background-color: black;
-     height: 2vh;
- }
+    .nav-div {
 
- .nav-heading{
-     font-size:2rem;
-     display: flex;
-    margin: 1rem;
+        background-color: black;
 
- }
- .form{
-     margin-left: 2rem;
-     margin-top: 1rem;
- 
- }
+        position: unset;
 
- .search-input{
-    height: 3.9vh;
-    width: 70%;
-  
- }
-
- 
- .nav-links{
-     margin-left: -1rem;
- 
-   text-decoration: none;
-     color: aliceblue;
- }
- .search-text{
-    font-size: 1.2rem;
-}
-.search-input{
-    height: 3vh;
-
-
-    padding-top: 0.6rem;
-}
- .submit-button{
-     background-color: red;
-     border-color: black;
-     color: aliceblue;
-     font-size: 0.7rem;
-     padding: 0.0rem;
-     margin-left: 0.5rem;
-
- }
- .color-change{
-     color: red;
-     margin-right: 0.5rem;
-     
- }
-.nav-links{
-    margin: 0.1rem;
-    font-size: 0.5em;
-}
- .list{
-     font-size:20px;
-     margin: 0.5rem;
- 
- }
- .list-item{
-    margin-top: 6rem;
-    margin-left: -5.2rem;
- }
- .theme-emoji{
-    padding: 0;
-margin-top: 0.4rem;
-margin-left: 0rem;
-margin-right: 0rem;
-
-    
- }
-
- 
- 
- 
- 
- 
- .main-div{
-     width: 90%;
-     margin-top: 0rem;
-     margin-left: -3rem;
- }
- 
- 
- /* **************   list    ************* */
- 
- 
- .links-div{
- margin-left: 3rem;  
- 
-     margin-top: 0srem;
- 
-     width: 100%;
     }
-    .link-items{
-     font-size: 1rem;
-     
+
+    .nav-container {
+        display: flex;
+        background-color: black;
+        height: 2vh;
     }
- #unorder{
-     visibility: hidden;
-     display: none;
- 
- }
-    .list-view-button{
-     
-     background-color: black;
-     visibility: visible;
- }
- .list-view-image{
-     height: 5vh;
-     width: 100%;
- }
- 
- 
- 
- 
- .content-div{
-         width: 100%;
-         margin-top: 2rem;
-         margin-left: 5rem;
-         position: relative;
- 
- 
-     }
-      .footer{
+
+    .nav-heading {
+        font-size: 2rem;
+        display: flex;
+        margin: 1rem;
+
+    }
+
+    .form {
+        margin-left: 2rem;
+        margin-top: 1rem;
+
+    }
+
+    .search-input {
+        height: 3.9vh;
+        width: 70%;
+
+    }
+
+
+    .nav-links {
+        margin-left: -1rem;
+
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .search-text {
+        font-size: 1.2rem;
+    }
+
+    .search-input {
+        height: 3vh;
+
+
+        padding-top: 0.6rem;
+    }
+
+    .submit-button {
+        background-color: red;
+        border-color: black;
+        color: aliceblue;
+        font-size: 0.7rem;
+        padding: 0.0rem;
+        margin-left: 0.5rem;
+
+    }
+
+    .color-change {
+        color: red;
+        margin-right: 0.5rem;
+
+    }
+
+    .nav-links {
+        margin: 0.1rem;
+        font-size: 0.5em;
+    }
+
+    .list {
+        font-size: 20px;
+        margin: 0.5rem;
+
+    }
+
+    .list-item {
+        margin-top: 6rem;
+        margin-left: -5.2rem;
+    }
+
+    .theme-emoji {
+        padding: 0;
+        margin-top: 0.4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+
+    }
+
+
+
+
+
+
+    .main-div {
+        width: 90%;
+        margin-top: 0rem;
+        margin-left: -3rem;
+    }
+
+
+    /* **************   list    ************* */
+
+
+    .links-div {
+        margin-left: 3rem;
+
+        margin-top: 0srem;
+
+        width: 100%;
+    }
+
+    .link-items {
+        font-size: 1rem;
+
+    }
+
+    #unorder {
+        visibility: hidden;
+        display: none;
+
+    }
+
+    .list-view-button {
+
+        background-color: black;
+        visibility: visible;
+    }
+
+    .list-view-image {
+        height: 5vh;
+        width: 100%;
+    }
+
+
+
+
+    .content-div {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        position: relative;
+
+
+    }
+
+    .footer {
         display: unset;
-     }
-   .links2-div {
-     margin-top: 5rem;
-     
-     color: black;
-     margin-left:-4rem;
-     display:grid;
-     gap: 20px;
-     grid-template-columns: 80px  80px 80px;
-     
-   }
-   .links2-li{
-     color: black;
-     margin: 5rem;
-   }
- 
- 
+    }
 
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
-   .information-div{
-         visibility: hidden;
-         display: none;
-     }
-     
-    
- 
-     
- 
+    .links2-div {
+        margin-top: 5rem;
+
+        color: black;
+        margin-left: -4rem;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 80px 80px 80px;
+
+    }
+
+    .links2-li {
+        color: black;
+        margin: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .information-div {
+        visibility: hidden;
+        display: none;
+    }
 
 
 
@@ -648,62 +693,66 @@ margin-right: 0rem;
 
 
 
-/* *************    sign -in - form   ***************** */
 
 
-.sign-in-form{
-    border: 2px solid black ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 40vh;
-    width: 90%;
+
+
+
+    /* *************    sign -in - form   ***************** */
+
+
+    .sign-in-form {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 40vh;
+        width: 90%;
+    }
+
+
+
+    /* *************    sign -up - form   ***************** */
+
+
+    .sign-up-form {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 80vh;
+        width: 90%;
+    }
+
+
+
+    /* *************   validation form  ***************** */
+
+
+    .validation-form {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 45vh;
+        width: 90%;
+    }
+
+
+
+
+    /* *************  different types of input  ***************** */
+
+
+    .types-input {
+        border: 2px solid black;
+        display: grid;
+
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
+
 }
-
-
-
-/* *************    sign -up - form   ***************** */
-
-
-.sign-up-form{
-    border: 2px solid black ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 80vh;
-    width: 90%;
-}
-
-
-
-/* *************   validation form  ***************** */
-
-
-.validation-form{
-    border: 2px solid black ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 45vh;
-    width: 90%;
-}
-
-
-
-
-/* *************  different types of input  ***************** */
-
-
-.types-input{
-    border: 2px solid black ;
-    display: grid;
-    
-    height: 100vh;
-    width: 100%;
-}
-
-
-
-
-}
-   

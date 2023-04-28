@@ -82,34 +82,73 @@
         <h1><span class="color-change">F</span>requency</h1>
         <p>Only one snackbar may be displayed at a time.</p>
         <hr>
-        <h1> <span class="color-change">A</span>ction</h1>
-        <p>A snackbar can contain a single action. "Dismiss" or "cancel" actions are optional.</p>
+
+
+        <h1> 1.<span class="color-change">B</span>asic Snackbars</h1>
+        <p>Click on the button to show the snackbar. It will disappear after 1 seconds.</p>
         <hr>
-        <div>
-            <button id="error-button" >Error</button>
-            <button id="loading-button" >Loading</button>
-            <button id="wishlist-button" >Wishlist</button>
+        <div class="basic-snackbar-button-div">
+            <button id="add-to-card-button" >Add To Cart</button>
+            <button id="sent-mail-button" >Sent Mail</button>
+            <button id="remove-cart-button" >Remove From Cart</button>
         </div>
         <div class="snackbar-1">
-            <div class="error-msg-1"  id="error-msg">Error 404: Please try again after some time</div>
-            <div class="error-msg-1" id="loading-msg">Loading: please wait for few seconds</div>
-            <div class="error-msg-1" id="wishlist-msg">Your item added to wishlist </div>
+            <div   id="output-div"></div>
+          
         </div>
 
 
-        <textarea class="text-area" name="" id="" cols="30" rows="10">
-            <div>
-                <button id="error-button" >Error</button>
-                <button id="loading-button" >Loading</button>
-                <button id="wishlist-button" >Wishlist</button>
-            </div>
-            <div class="snackbar-1">
-                <div class="error-msg-1"  id="error-msg">Error 404: Please try again after some time</div>
-                <div class="error-msg-1" id="loading-msg">Loading: please wait for few seconds</div>
-                <div class="error-msg-1" id="wishlist-msg">Your item added to wishlist </div>
-            </div>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28142%2C28%2C26%2C1%29&t=seti&wt=none&l=text%2Fx-mysql&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=41px&ph=43px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-snackbar-button-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522add-to-card-button%2522%2520%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522sent-mail-button%2522%2520%253ESent%2520Mail%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522remove-cart-button%2522%2520%253ERemove%2520From%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%2520%2520id%253D%2522output-div%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style=" border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
-        </textarea>
+
+
+<h1>2.<span class="color-change">C</span>ustomization</h1>
+        <p>Here are some examples of customizing the component. You can learn more about this in the</p>
+        <p>You can also close the text by clicking on close tag.</p>
+        <hr>
+
+        <div class="a-toast-button-div">
+            <button id="A-toast-button" > A Toast </button>
+        </div>
+        <div class="a-toast-output-div">  
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="a-toast-x-button">X</button>
+        </div>
+
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28142%2C28%2C26%2C1%29&t=seti&wt=none&l=text%2Fx-mysql&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=41px&ph=43px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522a-toast-button-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522A-toast-button%2522%2520%253E%2520A%2520Toast%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522a-toast-output-div%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522a-toast-x-button%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+        style=" border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+
+      <h1>2.<span class="color-change">P</span>ositioned Snackbar</h1>
+        <p>In wide layouts, snackbars can be left-aligned or center-aligned if they are consistently placed on the same spot at the bottom of the screen, however there may be circumstances where the placement of the snackbar needs to be more flexible
+
+        </p>
+        <hr>
+
+        <div class="positioned-snackbar-div">
+            <button class="positioned-snackbar-button" id="top-left-button">Top Left</button>
+            <button class="positioned-snackbar-button" id="top-right-button">Top Right</button>
+            <button class="positioned-snackbar-button" id="bottom-right-button">Bottom Right</button>
+            <button class="positioned-snackbar-button" id="bottom-left-button">Bottom Left</button>
+
+        </div>
+        <div class="positioned-snackbar-output-div"></div>
+
+
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28142%2C28%2C26%2C1%29&t=seti&wt=none&l=text%2Fx-mysql&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=41px&ph=43px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=171%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522positioned-snackbar-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522positioned-snackbar-button%2522%2520id%253D%2522top-left-button%2522%253ETop%2520Left%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522positioned-snackbar-button%2522%2520id%253D%2522top-right-button%2522%253ETop%2520Right%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522positioned-snackbar-button%2522%2520id%253D%2522bottom-right-button%2522%253EBottom%2520Right%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522positioned-snackbar-button%2522%2520id%253D%2522bottom-left-button%2522%253EBottom%2520Left%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522positioned-snackbar-output-div%2522%253E%253C%252Fdiv%253E"
+  style=" border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
         
 
 
