@@ -111,11 +111,13 @@ body{
     z-index: 5;
 }
 
+
 .nav-container{
     display: flex;
     background-color: black;
     
-}.home-link-tag{
+}
+.home-link-tag{
     color: white;
  text-decoration: none;
 }
@@ -282,26 +284,36 @@ margin-left: 1rem;
     }
     
     .nav-container{
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto ;
         background-color: black;
-        height: 2vh;
-    }
-   
-    .nav-heading{
-        font-size:2rem;
-        display: flex;
-       margin: 1rem;
-   
-    }
-    .form{
-        margin-left: 2rem;
-        margin-top: 1rem;
     
     }
    
+    .nav-heading{
+        font-size:1.6rem;
+        display: flex;
+   
+    }
+    .form{
+        margin-top: 1rem;
+        display: flex;
+    
+    
+    }
+    .component-text{
+        display: none;
+    }
+   #samicolon{
+    font-weight: bolder;
+    margin-left: 0.4rem;
+   }
     .search-input{
-       height: 3.9vh;
-       width: 70%;
+       height: 3vh;
+       width: 50%;
+       background-color: black;
+       border-top-color: 2px solid black;
+       
      
     }
    
@@ -313,27 +325,29 @@ margin-left: 1rem;
         color: aliceblue;
     }
     .search-text{
-       font-size: 1.2rem;
+       font-size: 1.4rem;
+       display: flex;
    }
-   .search-input{
-       height: 3vh;
-   
-   
-       padding-top: 0.6rem;
-   }
+ 
     .submit-button{
-        background-color: red;
+        background-color: rgb(17, 4, 4);
         border-color: black;
         color: aliceblue;
-        font-size: 0.7rem;
-        padding: 0.0rem;
+        font-size:1.2rem;
+        padding: 0rem;
+        border: 1px solid black ;
         margin-left: 0.5rem;
+        margin-bottom: 2rem;
    
     }
     .color-change{
         color: red;
         margin-right: 0.5rem;
         
+    }
+    #book-emoji{
+        margin-right: 0rem;
+        margin-top: -0.22rem;
     }
    .nav-links{
        margin: 0.1rem;
