@@ -461,7 +461,14 @@ iframe {
 @media screen and (max-width : 800px) {
 
     /* *******************  nav ************************** */
-
+    iframe{
+        width: 85vw;
+        height: 150px;
+    margin: 1rem;
+    margin-left: -1.2rem;
+    
+    
+    }
     .component-text {
         display: none;
     }
@@ -575,11 +582,13 @@ iframe {
 
 
 
-    .main-div {
-        width: 90%;
+    .main-div{
+        width: 100%;
         margin-top: 0rem;
         margin-left: -3rem;
     }
+    
+    
 
 
     /* **************   list    ************* */
