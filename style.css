@@ -290,13 +290,14 @@ margin-left: 1rem;
     }
    
     .nav-heading{
-        font-size:1.6rem;
+        font-size:1.9rem;
         display: flex;
         margin-left: -0.1rem ;
+        
    
     }
     .form{
-        margin-top: 1rem;
+        margin-top: 1.2rem;
         display: flex;
         margin-left: auto;
     
