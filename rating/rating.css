@@ -221,6 +221,8 @@ margin-left: 1rem;
     
     font-size:  3rem; 
     margin: 0.5rem;
+    cursor: pointer;
+
   
     
 
@@ -502,10 +504,8 @@ margin-right: 0rem;
 
      .stars{
         display: inline-flex;
-    
-        font-size:  1.6rem;
+        font-size:  2.2rem;
         margin: 0rem; 
-        /* margin: 1rem; */
       
         
     
@@ -519,12 +519,9 @@ margin-right: 0rem;
     
     
     .output{
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        background-color: rgb(15, 19, 22);
-        text-align: center;
-        height: 100px;
-        width: 400px;
+       
+        height: 60px;
+        width: 80dvw;
         font-size: 2rem;
     }
     .try-again-button{

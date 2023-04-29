@@ -551,9 +551,9 @@ margin-right: 0rem;
 
 .icon-nav{
     margin: 0.5rem;
-    margin-left: auto;
-    
-    margin-top:-0.5rem;
+    height: 4vh;
+    margin-top: 1.2rem;
+
 }
 .icon-div{
     margin: 1em;
@@ -562,17 +562,27 @@ margin-right: 0rem;
 
 
 }
+.Brand-logo-text{
+    display: none;
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input1{
+    width: 100%;
+}
+
 .nav-brand-name{
-    font-size: 0.9rem;
-    margin-top: -0.1rem;
-}
-input{
+    font-size: 1.2rem;
     margin-top: 1rem;
-    width: 60%;
-    margin-left: 1rem;
-
-
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    color: aqua;
+ 
 }
+
 
 
 

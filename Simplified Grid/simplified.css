@@ -584,8 +584,53 @@ margin-right: 0rem;
          visibility: hidden;
          display: none;
      }
+
+
+
+
+
+
+
+
+
+
+
+     /* ****************     tamplate column grid ************ */
      
+
+     .grid-tamplate-column{
+  
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    padding-right: 2rem;
+    margin-left: -1.2rem;
+}
+
+.grid1-columns{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.4rem;
+    margin: 0.3rem;
+
+
+}
+
+/* ******  tamplate area       ************ */
+
+
+
+.grid-template-area{
+    background-color: rgb(42, 45, 46);
+    padding: 0.5rem;
+
+
+                        "sidebar mainContent mainContent" 
+                        "footer footer footer ";    
+}
     
  
      
  } 
+
+ 

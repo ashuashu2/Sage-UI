@@ -7,6 +7,8 @@
     width: 60%;
     height: 5vh;
     font-size: 1.2rem;
+    text-align: center;
+
 }
 iframe{
     width: 50vw;
@@ -519,10 +521,17 @@ margin-right: 0rem;
      }
      
  
+.normal-list-div{
+    margin-left: -2rem;
+}
 
-
-
-
+     .normal-list-items{
+        list-style: none;
+        border: 1px solid rgb(240, 230, 230);
+        margin: 0.5rem;
+        width: 100%;
+      
+    }
 
 /* *************** Notification  list************ */
 
@@ -530,10 +539,11 @@ margin-right: 0rem;
 
 .notification-list-items{
     list-style: none;
-    width: 90%;
-    border: 1px solid rgb(245, 240, 240);
-    margin: 0.5rem;
-    font-size: large;
+    width: 100%;
+  padding: 1rem;
+  display: flex;
+  margin-left: -2rem;
+ 
    
 }
 
@@ -556,16 +566,17 @@ margin-right: 0rem;
 
 
 .selection-list-item{
-    list-style: none;
-    border: 1px solid rgb(245, 239, 239);
-    margin: 1rem; 
-    width: 100%; 
-    height: 6vh; 
+  
+    margin: 1rem;
+    margin-left: -1.5rem;  
+    height: 5vh; 
+   
+    width: 100%;
+    padding: 0.4rem;
+    
 }
 
-.input-feild{
-    margin-left: 9rem;
-}
+
 
 
 }

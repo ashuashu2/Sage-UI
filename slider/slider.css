@@ -318,7 +318,6 @@ body {
 
     top: 90%;
     left: 50%;
-    /* transform: translateX(-50%); */
 }
 
 .dot-button-slides {
@@ -598,7 +597,7 @@ body {
     }
 
     .arrow-button-slides1 {
-        font-size: 1rem;
+        font-size: 0.7rem;
         left: 0px;
         color: rgb(224, 38, 38);
         text-decoration: none;
@@ -611,7 +610,7 @@ body {
     }
 
     .arrow-button-slides2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
         right: 0px;
         color: rgb(224, 38, 38);
         text-decoration: none;
@@ -639,6 +638,15 @@ body {
 
     .slides2 {
         display: none;
+    }
+
+
+    .dot-button-div {
+        position: absolute;
+        cursor: pointer;
+    
+        top: 85%;
+        left: 32%;
     }
 
 

@@ -498,21 +498,8 @@ margin-right: 0rem;
  
 
 #content{
-    visibility: hidden;
-    color: black;
-    border: 1px solid black;
-    font-size: xx-large;
-    background-color: rgb(239, 253, 253);
-    height: 20vh;
-    width: 100%;
+    font-size: x-large;
+
 }
-#close-button{
-    visibility: hidden;
-    font-size: 2rem;
-    border: 1px solid;
-    border-radius: 50%;
-    background-color: rgb(224, 38, 38);;
-    color: white;
-    border-color: rgb(224, 38, 38);
-}
+
 }

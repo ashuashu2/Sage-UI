@@ -100,8 +100,12 @@ iframe {
     text-align: left;
     font-size: large;
     padding: 0.5rem;
+    font-weight: bolder;
+
     color: red;
     border: 1px solid salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 .right-text{
@@ -566,6 +570,21 @@ margin-right: 0rem;
      
     
  
+
+     .paragraph-area-container{
+        width: 100%;
+        padding: 0.5rem;
+     
+    }
+    .center-text{
+        font-size: small;
+    }
+    .right-text{
+        font-size: small;
+    }
+    .left-text{
+        font-size: small;
+    }
      
  } 
 
