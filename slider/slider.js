@@ -7,29 +7,30 @@ var slides = document.getElementsByClassName("slides");
 
 
 
-var i =0
+var i = 0
 
-function slideShow(index){
+function slideShow(index) {
 
-if(i < 0 ){
-    i = slides.length-1
-   
+  if (i < 0) {
+    i = slides.length - 1
+
   }
-  if(i > slides.length-1){
-    
-    i =0
+  if (i > slides.length - 1) {
+
+    i = 0
   }
   for (let index = 0; index < slides.length; index++) {
-    slides[index].style.display= "none"
-  
-    
+    slides[index].style.display = "none"
+
+
   }
- slides[i].style.display = "block"
+  slides[i].style.display = "block"
 
 
 }
 slideShow()
-function controler(x){
+
+function controler(x) {
   i = i + x
 
   return slideShow()
@@ -68,24 +69,25 @@ var slides2 = document.getElementsByClassName("slides2");
 
 
 
-var i =0 
-function automaticSideShow(){
+var i = 0
+
+function automaticSideShow() {
   for (let index = 0; index < slides2.length; index++) {
     slides2[index].style.display = "none"
-   
-    
+
+
   }
   i++
-  if (i > slides2.length){
-    i =1
-  } 
+  if (i > slides2.length) {
+    i = 1
+  }
 
 
 
 
-  slides2[i-1].style.display = "block" 
-  setTimeout(automaticSideShow,2000)
-  
+  slides2[i - 1].style.display = "block"
+  setTimeout(automaticSideShow, 2000)
+
 }
 automaticSideShow()
 
@@ -100,48 +102,90 @@ var slides3 = document.getElementsByClassName("slides3");
 
 
 
-var i =0
+var i = 0
 
-function dotSlideShow(){
+function dotSlideShow() {
 
 
   for (let index = 0; index < slides3.length; index++) {
-    slides3[index].style.display= "none"
-  
-    
+    slides3[index].style.display = "none"
+
+
   }
- slides3[i].style.display = "block"
+  slides3[i].style.display = "block"
 
 
 }
 dotSlideShow()
-function newControler5(x)
-{
+
+function newControler5(x) {
   i = 4
 
   return dotSlideShow()
 }
-function newControler1(x)
-{
+
+function newControler1(x) {
   i = 0
 
   return dotSlideShow()
 }
-function newControler2(x)
-{
+
+function newControler2(x) {
   i = 1
 
   return dotSlideShow()
 }
-function newControler3(x)
-{
+
+function newControler3(x) {
   i = 2
 
   return dotSlideShow()
 }
-function newControler4(x)
-{
+
+function newControler4(x) {
   i = 3
 
   return dotSlideShow()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var hamburgerButton = document.querySelector("#click-button")
+
+var listItems = document.querySelector(".links-div")
+hamburgerButton.addEventListener("click", hamburgerButtonHandler)
+isOpen = false
+
+
+function hamburgerButtonHandler() {
+
+
+
+  if (isOpen === false) {
+    isOpen = true
+
+    
+    listItems.classList.remove("links-div")
+
+    listItems.classList.add("hamburger-list-item")
+
+  } else {
+    isOpen = false
+    listItems.classList.remove("hamburger-list-item")
+
+    listItems.classList.add("links-div")
+
+  }
 }
