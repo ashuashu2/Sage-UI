@@ -272,9 +272,15 @@ margin-left: 1rem;
 
 
  
-@media screen and (max-width : 800px ) {
-
-    /* *******************  nav ************************** */
+@media screen and (max-width : 800px ) {    
+    iframe{
+        width: 85vw;
+        height: 150px;
+    margin: 1rem;
+    margin-left: -1.2rem;
+    
+    
+    }
 
 
 
@@ -350,7 +356,7 @@ margin-left: 1rem;
    }
  
     .submit-button{
-        background-color: rgb(17, 4, 4);
+        background-color: black;
         border-color: black;
         color: aliceblue;
         font-size:1.2rem;
@@ -362,7 +368,7 @@ margin-left: 1rem;
     }
     .color-change{
         color: red;
-        margin-right: 0.5rem;
+        
         
     }
     
@@ -399,7 +405,7 @@ margin-left: 1rem;
 }
 .hero{
         height: 27vh;
-    
+    margin-left: 2.5rem;
 
 }
 
@@ -411,16 +417,31 @@ margin-left: 1rem;
     
 }
 
+.home-page-heading{
+    font-size  : 2rem;
+    margin: 1rem;
+}
+
+.small-container{
+    margin-bottom: 2rem
+;}
 .button-started{
     background-color:; 
    font-size: x-large;
    margin-top: 2rem;
    margin-right: 10rem;
    border: solid black;
-   border: 10px solid black
+   border: 10px solid black;
+   margin: 2rem;
+   margin-left: 0rem;
   
 
    
+}
+.get-started{
+
+    font-size: 1.5rem;
+    
 }
  
      

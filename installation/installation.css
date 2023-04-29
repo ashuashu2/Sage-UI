@@ -13,7 +13,15 @@
 
 
 
+iframe{
+    width: 50vw;
+    height: 170px;
+border: 0;
+margin: 1.5rem;
+margin-left: -1.5rem;
 
+
+}
 
 
 body{
@@ -21,11 +29,7 @@ body{
     background-color: black;
    
 }
-.carbon-text{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 
-}
 
 /* *******************  nav ************************** */
 
@@ -241,8 +245,15 @@ rem;
 
 
  
-@media screen and (max-width : 800px ) {
-
+@media screen and (max-width : 800px ) {    
+    iframe{
+        width: 85vw;
+        height: 150px;
+    margin: 1rem;
+    margin-left: -1.2rem;
+    
+    
+    }
     /* *******************  nav ************************** */
 
     .component-text{
@@ -310,7 +321,7 @@ rem;
 }
 
  .submit-button{
-     background-color: rgb(17, 4, 4);
+     background-color: black;
      border-color: black;
      color: aliceblue;
      font-size:1.2rem;
@@ -322,7 +333,7 @@ rem;
  }
  .color-change{
      color: red;
-     margin-right: 0.5rem;
+     
      
  }
 .nav-links{
@@ -434,7 +445,11 @@ margin-right: 0rem;
          visibility: hidden;
          display: none;
      }
-     
+
+
+
+
+       
     
  
      
