@@ -87,6 +87,7 @@ iframe{
 
 
 .small-button{
+    cursor: pointer;
     font-size: x-large;
     height: 2rem;
     color: antiquewhite;
@@ -99,6 +100,7 @@ iframe{
   
 }
 .large-button{
+    cursor: pointer;
     font-size: large;
     margin: 2rem;
     height: 3rem;
@@ -112,6 +114,7 @@ iframe{
 
 }
 .xx-large-button{
+    cursor: pointer;
     font-size: x-large;
     margin: 2rem;
     height: 4rem;
@@ -143,6 +146,7 @@ iframe{
 
 
 .green-button{
+    cursor: pointer;
     font-size: large;
     margin: 1rem;
     height: 3rem;
@@ -157,6 +161,7 @@ iframe{
   
 }
 .red-button{
+    cursor: pointer;
     font-size: large;
     margin: 1rem;
     height: 3rem;
@@ -170,6 +175,7 @@ iframe{
 
 }
 .yellow-button{
+    cursor: pointer;
     font-size: large;
     margin: 1rem;
     height: 3rem;
@@ -182,6 +188,7 @@ iframe{
     width: 8rem;
 }
 .blue-button{
+    cursor: pointer;
     font-size: large;
     margin: 1rem;
     height: 3rem;
@@ -537,7 +544,9 @@ rem;
 
 
  
-@media screen and (max-width : 800px ) {    
+@media screen and (max-width : 800px ) {
+
+    /* *******************  nav ************************** */
     iframe{
         width: 85vw;
         height: 150px;
@@ -546,8 +555,6 @@ rem;
     
     
     }
-    /* *******************  nav ************************** */
-
     .component-text{
         display: none;
     }
@@ -661,7 +668,7 @@ margin-right: 0rem;
  
  
  .main-div{
-     width: 100%;
+     width: 90%;
      margin-top: 0rem;
      margin-left: -3rem;
  }
@@ -750,113 +757,121 @@ margin-right: 0rem;
 
   
      
- 
-.contained-button{
-    font-size: 0.8rem;
-    margin: 1rem;
-    height: 3rem;
-    margin-top: 2rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
+  
+    .text-button{
+        font-size: 1rem;
+        margin: 0.6rem;
+        margin-left: 3rem;
+        width: 100%;
 
-    border-radius: 0.4rem;
-    width: 10rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
 
-}
-.outlined-button{
-    font-size: 1rem;
-    margin: 1rem;
-    height: 3rem;
-    margin-top: 2rem;
-    border-radius: 0.4rem;
-    width: 10rem;
-    color: rgb(70, 25, 233);
-    border-color: rgb(68, 44, 207);
+       
+        
+    }
+    .contained-button{
+        font-size: small;
+        margin: 0.6rem;
+      
+        width: 5rem;
+    
+    }
+    .outlined-button{
+        font-size: small;
+        margin: 0.6rem;
+      
+        width: 5rem;
+      
+    
+    }
+    .dashed-button{
+        font-size: small;
+        margin: 0.6rem;
+       
+        width: 5rem;
+    
+    }
 
-}
+
 
 
 .small-button{
     font-size: small;
-    height: 3rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
-    margin-top: 2.5rem;
+    margin-left: 2rem;
+    
  
     
     
   
 }
 .large-button{
-    font-size: large;
+    font-size: 2rem;
     margin: 2rem;
-    height: 4rem;
     margin-top: 2rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
-
-    border-radius: 0.4rem;
-    width: 13rem;
+  
 
 }
 .xx-large-button{
     font-size: x-large;
     margin: 2rem;
-    height: 6rem;
+    
     margin-top: 2rem;
     border-radius: 0.4rem;
-    width: 17rem;
-    color: antiquewhite;
-    border-color: antiquewhite;
-    background-color: rgb(67, 39, 189);
+
+
+    
 }
 
 
 
 
-.facebook-link-button{
-    font-size: large;
-    margin: 1rem;
-    height: 3rem;
-    margin-top: 3rem;
-    color: antiquewhite;
-    border-color: rgb(45, 27, 204);
-    background-color: blue;
 
-    border-radius: 0.4rem;
-    width: 15rem;
+
+.colors-button-container{
+    display: grid;
+    grid-template-columns: auto auto;
+ 
+}
+
+
+
+
+
+
+.green-button{
+  
+    margin: 0.5rem;
+   
+    width: 6rem;
+    
+  
+}
+.red-button{
+  
+    margin: 0.5rem;
+  
+    width: 6rem;
 
 }
-.instagram-link-button{
-    font-size: large;
-    margin: 3rem;
-    width: 3rem;
-    height: 3rem;
-    margin-top: 3rem;
-    color: rgb(92, 11, 15);
-    border-color: rgb(134, 8, 24);
-    background-color: rgb(252, 8, 61);
-
-    border-radius: 0.4rem;
-    width: 15rem;
-
+.yellow-button{
+  
+    margin: 0.5rem;
+  
+    width: 6rem;
 }
-.facebook{
-    text-decoration: none;
-    color:rgb(42, 10, 95) ;
-}
-.instagram{
-    text-decoration: none;
-    color:rgb(92, 11, 15) ;
+.blue-button{
+  
+    margin: 0.5rem;
+ 
+    width: 6rem;
+
 }
 
 
 .icon-button-container{
    
-    margin-left: -2rem;
+    margin-left: 0rem;
     margin-bottom: 10rem;
 
     display: grid;
@@ -878,14 +893,10 @@ margin-right: 0rem;
 
 
 .floating-button{
-    background-color: rgb(243, 18, 18);
-    border-radius: 55%;
-    text-decoration: none;
-    color: rgb(245, 237, 237);
-    border-color: rgb(243, 18, 18) ;
+
     position: absolute;
-    bottom: 3rem;
-   right: 3rem;
+    bottom: 3.5rem;
+   right: 2.2rem;
    font-size: 2rem;
 }
 

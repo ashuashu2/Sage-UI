@@ -1,16 +1,16 @@
 /* *****************nav*********************** */
-iframe{
+iframe {
     width: 50vw;
     height: 170px;
-border: 0;
-margin: 1.5rem;
-margin-left: -1.5rem;
+    border: 0;
+    margin: 1.5rem;
+    margin-left: -1.5rem;
 
 
 }
 
 
-.card1{
+.card1 {
     border: 2px solid rgb(239, 246, 247);
     background-color: rgb(235, 12, 12);
     width: 50%;
@@ -20,10 +20,10 @@ margin-left: -1.5rem;
 
 
 
-.card2-bigger-div{
+.card2-bigger-div {
     height: 420px;
     background-color: black;
-  box-shadow: 0px 0px 0px 1px white;
+    box-shadow: 0px 0px 0px 1px white;
 
     width: 300px;
     margin-left: 2rem;
@@ -31,83 +31,92 @@ margin-left: -1.5rem;
 
 
 
-  }
-.card2{
+}
+
+.card2 {
     position: relative;
     width: 100%;
-    
-  }
 
-  .card2-img{
+}
+
+.card2-img {
     height: 260px;
     width: 260px;
     box-shadow: 0px 1px 0px 2px black;
     margin: 1.2rem;
     margin-bottom: 0rem;
-    
-  }
-  .visit-text{
+
+}
+
+.visit-text {
     color: white;
     margin-left: 1rem;
-  }
-  .visit-botton-links{
+}
+
+.visit-botton-links {
 
     font-weight: bolder;
     text-decoration: none;
     margin: 2rem;
     font-size: 1.4rem;
 
-  }
- 
-  .card2-text{
-      color: aquamarine;
-      font-weight: bold;
-      position: absolute;
+}
+
+.card2-text {
+    color: aquamarine;
+    font-weight: bold;
+    position: absolute;
     top: 70%;
-      left: 22px;
+    left: 22px;
 
-  }
-  
-
+}
 
 
 
-.card3{
+
+
+.card3 {
     background-color: white;
     position: relative;
-     width: 65%;
+    width: 65%;
     height: 50vh;
     margin-left: 2rem;
 }
-.card3-img{
+
+.card3-img {
     height: 25ch;
     margin-left: 2rem;
     margin-top: 1rem;
 }
-.card3-div1{
-  
+
+.card3-div1 {
+
     display: flex;
     justify-content: space-between;
 }
-.card3-text{
+
+.card3-text {
     margin-right: 2rem;
     color: rgb(4, 6, 8);
 }
-.card3-button1{
+
+.card3-button1 {
     position: absolute;
-    
+
     bottom: 0px;
     left: 0px;
     width: 45%;
 
     color: white;
-    
+
     background-color: orangered;
 
     font-size: xx-large;
-    
+    cursor: pointer;
+
 }
-.card3-button2{
+
+.card3-button2 {
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -115,49 +124,54 @@ margin-left: -1.5rem;
     color: white;
 
     background-color: orangered;
-    
+
     font-size: xx-large;
-    
+    cursor: pointer;
+
 }
-.button-x{
+
+.button-x {
     cursor: pointer;
     font-size: x-large;
-border: 1px solid black;
-border-radius: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
     position: absolute;
     top: 1px;
     right: 1px;
+    
 }
 
 
 
-.card4{
+.card4 {
     margin-top: 5rem;
     margin-bottom: 5rem;
-    
+
     box-shadow: 3px 0px 40px 7px rgb(172, 102, 85);
     border: 1px solid black;
     background-color: white;
     position: relative;
-   
+
     width: 60%;
     height: 50vh;
     margin-left: 2rem;
-   
+
 }
-.card5{
+
+.card5 {
     margin-top: 5rem;
     margin-bottom: 5rem;
-    
+
 
     border: 5px solid rgb(14, 3, 3);
     background-color: white;
     position: relative;
-   
+
     width: 35%;
-   margin-left: 2rem;
+    margin-left: 2rem;
 }
-.card5-img{
+
+.card5-img {
     height: 25ch;
     margin-left: 2rem;
     margin-top: 1rem;
@@ -165,32 +179,35 @@ border-radius: 50%;
 
 
 
-.card5-div1{
+.card5-div1 {
     display: flex;
     justify-content: space-between;
 }
-.card5-text{
-color: black; 
-   margin-left: 1rem;
+
+.card5-text {
+    color: black;
+    margin-left: 1rem;
     margin-bottom: 2rem;
 }
-.card5-button1{
+
+.card5-button1 {
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 55%;
 
     color: white;
-    
+
     background-color: orangered;
 
     font-size: large;
     cursor: pointer;
     height: 2rem;
 
-    
+
 }
-.card5-button2{
+
+.card5-button2 {
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -199,11 +216,11 @@ color: black;
 
     background-color: rgb(233, 216, 216);
     font-weight: bolder;
-    
+
     font-size: large;
     cursor: pointer;
     height: 2rem;
-    
+
 }
 
 
@@ -226,19 +243,20 @@ color: black;
 
 
 
-body{
+body {
     color: aliceblue;
     background-color: black;
-   
+
 }
 
 /* *******************  nav ************************** */
 
 
-.footer{
-  display: none;
+.footer {
+    display: none;
 }
-.nav-div{
+
+.nav-div {
     position: fixed;
     top: 0px;
     height: 15vh;
@@ -247,73 +265,85 @@ body{
     z-index: 5;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     background-color: black;
-    
-}.home-link-tag{
-    color: white;
- text-decoration: none;
+
 }
-.nav-heading{
+
+.home-link-tag {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-heading {
     font-size: 2.5rem;
     margin: 0.8rem;
 }
-.form{
+
+.form {
     margin-left: auto;
     margin-top: 1.4rem;
 
 }
-.search-text{
+
+.search-text {
     font-size: 2rem;
 }
-.search-input{
+
+.search-input {
     height: 4vh;
     padding-top: 0.6rem;
 }
 
-.submit-button{
-    background-color:red;
+.submit-button {
+    background-color: red;
     font-size: 1rem;
     padding-top: 0.22rem;
 }
-.color-change{
+
+.color-change {
     color: red;
 }
-.docs-text{
+
+.docs-text {
     color: red;
 }
-.github-text{
-background-color: red;
-padding: 0.2rem;
-border-radius: 0.7rem;
+
+.github-text {
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 0.7rem;
 }
-.list-item{
+
+.list-item {
     margin: 1rem;
     margin-left: auto;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     color: black;
-  
+
 
 }
-.theme-emoji{
-margin-right: 1rem;
-margin-top: 0.8rem;
-margin-left: 1
-rem;
+
+.theme-emoji {
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 1 rem;
     background-color: red;
     border-radius: 0.5rem;
     padding: 0.05rem;
-    
+
 }
-.list{
+
+.list {
     font-size: 1.5rem;
     margin: 1rem;
-    
+
 }
-.nav-links{
+
+.nav-links {
     text-decoration: none;
     color: aliceblue;
 }
@@ -335,41 +365,48 @@ rem;
 /* ********************       main div         ******************************* */
 
 
-.main-div{
+.main-div {
     display: grid;
     margin-top: 5rem;
-    grid-template-columns:  80% 30% 30%;
+    grid-template-columns: 80% 30% 30%;
 }
 
 
-.links-div{
-   margin-top: 2.5rem; 
+.links-div {
+    margin-top: 2.5rem;
     position: fixed;
     border-right: 0.2px solid white;
 }
 
-#unorder{
+#unorder {
     font-size: 1.5rem;
     margin: 1rem;
     color: black;
-    
+
 }
-.link-items{
+
+.link-items {
     text-decoration: none;
     color: white;
 }
-.link-items-li:hover{
+
+.link-items-li:hover {
     background-color: rgb(196, 18, 18);
-}   .active-link{
+}
+
+.active-link {
     background-color: rgb(196, 18, 18);
-}.content-div{
+}
+
+.content-div {
     margin-left: 20rem;
     margin-top: 6rem;
-    
+
 }
-.information-div{
+
+.information-div {
     position: fixed;
-    right:  10px;
+    right: 10px;
     top: 12rem;
 }
 
@@ -377,38 +414,40 @@ rem;
 
 /* ***************arrow button************ */
 
-.arrow-button-1{
+.arrow-button-1 {
     font-size: 2rem;
     left: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
-   
+
 }
-.arrow-button-2{
+
+.arrow-button-2 {
     font-size: 2rem;
     right: 0px;
-    color:  rgb(224, 38, 38) ;
+    color: rgb(224, 38, 38);
     text-decoration: none;
     background-color: aliceblue;
 
 
-   
+
 }
-.arrow-button-container{
+
+.arrow-button-container {
     display: flex;
     justify-content: space-between;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
-  
+
 }
 
-.arrow-image{
+.arrow-image {
     height: 5ch;
     color: rgb(71, 42, 35);
     background-color: aliceblue;
-    
-    
+
+
 
 }
 
@@ -447,297 +486,334 @@ rem;
 /* ********************  responsive  screen *************** */
 
 
- 
-@media screen and (max-width : 800px ) {    
-    iframe{
+
+@media screen and (max-width : 800px) {
+    iframe {
         width: 85vw;
         height: 150px;
-    margin: 1rem;
-    margin-left: -1.2rem;
-    
-    
+        margin: 1rem;
+        margin-left: -1.2rem;
+
+
     }
+
     /* *******************  nav ************************** */
 
-    .component-text{
+    .component-text {
         display: none;
     }
-    
-   #samicolon{
-    font-weight: bolder;
-    margin-left: 0.2rem;
-   }
-   #book-emoji{
-    margin-right: 0rem;
-    margin-top: -0.22rem;
-}
-  
+
+    #samicolon {
+        font-weight: bolder;
+        margin-left: 0.2rem;
+    }
+
+    #book-emoji {
+        margin-right: 0rem;
+        margin-top: -0.22rem;
+    }
+
     /* *******************  nav ************************** */
-  .nav-div{
-    
-     background-color: black;
- 
-    position: unset;
-     
- }
- 
- .nav-container{
-    display: flex;
-    background-color: black;
+    .nav-div {
 
-}
+        background-color: black;
 
-.nav-heading{
-    font-size:1.9rem;
-    display: flex;
-    margin-left: -0.1rem ;
-    
-}
-.form{
-    margin-top: 1.2rem;
-    display: flex;
-    margin-left: auto;
-}
-.search-input{
-   height: 2vh;
-   width: 50%;
-   margin-top: 0.3rem;
-   background-color: rgb(3, 0, 0);
-   border: 1px solid black;
-   border-bottom: 1.2px solid aqua ;
-   border-style:dotted;  
-}
+        position: unset;
 
- 
- .nav-links{
-     margin-left: -1rem;
- 
-   text-decoration: none;
-     color: aliceblue;
- }
- .search-text{
-    font-size: 1.3rem;
-    display: flex;
-}
-
- .submit-button{
-     background-color: black;
-     border-color: black;
-     color: aliceblue;
-     font-size:1.2rem;
-     padding: 0rem;
-     border: 1px solid black ;
-     margin-left: 0.5rem;
-     margin-bottom: 2rem;
-
- }
- .color-change{
-     color: red;
-     
-     
- }
-.nav-links{
-    margin: 0.1rem;
-    font-size: 0.5em;
-}
- .list{
-     font-size:20px;
-     margin: 0.5rem;
- 
- }
- .list-item{
-    margin-top: 6rem;
-    margin-left: -5.2rem;
-    display: none;
- }
- .theme-emoji{
-    padding: 0;
-margin-top: 0.4rem;
-margin-left: 0rem;
-margin-right: 0rem;
-
-    
- }
-
- 
- 
- 
- 
- 
- .main-div{
-     width: 100%;
-     margin-top: 0rem;
-     margin-left: -3rem;
- }
- 
- 
- /* **************   list    ************* */
- 
- 
- .links-div{
- margin-left: 3rem;  
- 
-     margin-top: 0srem;
- 
-     width: 100%;
     }
-    .link-items{
-     font-size: 1rem;
-     
+
+    .nav-container {
+        display: flex;
+        background-color: black;
+
     }
- #unorder{
-     visibility: hidden;
-     display: none;
- 
- }
-    .list-view-button{
-     
-     background-color: black;
-     visibility: visible;
- }
- .list-view-image{
-     height: 5vh;
-     width: 100%;
- }
- 
- 
- 
- 
- .content-div{
-         width: 100%;
-         margin-top: 2rem;
-         margin-left: 5rem;
-         position: relative;
- 
- 
-     }
-      .footer{
+
+    .nav-heading {
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: -0.1rem;
+
+    }
+
+    .form {
+        margin-top: 1.2rem;
+        display: flex;
+        margin-left: auto;
+    }
+
+    .search-input {
+        height: 2vh;
+        width: 50%;
+        margin-top: 0.3rem;
+        background-color: rgb(3, 0, 0);
+        border: 1px solid black;
+        border-bottom: 1.2px solid aqua;
+        border-style: dotted;
+    }
+
+
+    .nav-links {
+        margin-left: -1rem;
+
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .search-text {
+        font-size: 1.3rem;
+        display: flex;
+    }
+
+    .submit-button {
+        background-color: black;
+        border-color: black;
+        color: aliceblue;
+        font-size: 1.2rem;
+        padding: 0rem;
+        border: 1px solid black;
+        margin-left: 0.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .color-change {
+        color: red;
+
+
+    }
+
+    .nav-links {
+        margin: 0.1rem;
+        font-size: 0.5em;
+    }
+
+    .list {
+        font-size: 20px;
+        margin: 0.5rem;
+
+    }
+
+    .list-item {
+        margin-top: 6rem;
+        margin-left: -5.2rem;
+        display: none;
+    }
+
+    .theme-emoji {
+        padding: 0;
+        margin-top: 0.4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+
+    }
+
+
+
+
+
+
+    .main-div {
+        width: 100%;
+        margin-top: 0rem;
+        margin-left: -3rem;
+    }
+
+
+    /* **************   list    ************* */
+
+
+    .links-div {
+        margin-left: 3rem;
+
+        margin-top: 0srem;
+
+        width: 100%;
+    }
+
+    .link-items {
+        font-size: 1rem;
+
+    }
+
+    #unorder {
+        visibility: hidden;
+        display: none;
+
+    }
+
+    .list-view-button {
+
+        background-color: black;
+        visibility: visible;
+    }
+
+    .list-view-image {
+        height: 5vh;
+        width: 100%;
+    }
+
+
+
+
+    .content-div {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        position: relative;
+
+
+    }
+
+    .footer {
         display: unset;
-     }
-   .links2-div {
-     margin-top: 5rem;
-     
-     color: black;
-     margin-left:-4rem;
-     display:grid;
-     gap: 20px;
-     grid-template-columns: 80px  80px 80px;
-     
-   }
-   .links2-li{
-     color: black;
-     margin: 5rem;
-   }
- 
- 
+    }
 
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
-   .information-div{
-         visibility: hidden;
-         display: none;
-     }
-     
+    .links2-div {
+        margin-top: 5rem;
+
+        color: black;
+        margin-left: -4rem;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 80px 80px 80px;
+
+    }
+
+    .links2-li {
+        color: black;
+        margin: 5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .information-div {
+        visibility: hidden;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .card1 {
+        border: 3px solid rgb(243, 229, 229);
+        width: 100%;
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .card2-bigger-div {
+
+        margin-left: -1rem;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ***************card3************ */
+
+    .card3 {
+        background-color: white;
+        position: relative;
+        width: 120%;
+        height: 30vh;
+        margin-left: -1.2rem;
+    }
     
- 
-     
- 
+    .card3-img {
+        height: 20ch;
+        margin-left: 0.3rem;
+        margin-right: 2rem;
+    }
 
-
-
-
-
-
-
-
-
-
-.card1{
-    border: 3px solid rgb(243, 229, 229);
-    width: 100%;
-    text-align: center;
-}
-.card2{
-    width: 80%;
-    margin-left: -1rem;
-}
-
-.card2-text{
-    text-align: center;
-    color: rgb(78, 11, 11)
-    ;
-    height: 20vh;
-    width: 80%;
-    position: absolute;
-    top: 5rem;
-    left: 2.8rem;
-
-}
-
-
-
-
-/* ***************card3************ */
-
-.card3{
-    border: 1px solid rgb(241, 214, 214);
-    background-color: white;
-    position: relative;
-   
-    width: 100%;
-    height: 55vh;
-    margin-left: -1.5rem;
-}
-.card3-img{
-    height: 20vh;
-    width: 90%;
-    margin: 1rem;
-    margin-left: 0rem;
-}
-.card3-text{
-    margin-right: -1rem;
-}
-
-
-
-.card4{
-    border: 1px solid black;
-    background-color: white;
-    position: relative;
-   
-    width: 100%;
-    height: 50vh;
-    margin-left: -1rem;
-}
-
-
-
-.card5{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    
     
 
-    border: 1px solid black;
-    background-color: white;
-    position: relative;
-   
-    width: 90%;
-    /* height: 50vh; */
-   
-}
-.card5-text{
-    /* margin-right: 2rem; */
-    margin-left: 1rem;
-    margin-bottom: 5rem;
-}
+    .card3-text {
+        margin-right: 1rem;
+    }
+    
+    .card3-button1 {
+     
+        font-size: 1.4rem;
+        padding: 0.43rem;
+        cursor: pointer;
+    
+    }
+    
+    .card3-button2 {
+       
+        font-size: 1.4rem;
+        padding: 0.43rem;
+        cursor: pointer;
+    
+    }
+    
+
+
+
+    .card4 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    
+        width: 110%;
+        height: 35vh;
+        margin-left: -1rem;
+    }
+
+
+
+    .card5 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+
+        border: 1px solid black;
+        background-color: white;
+        position: relative;
+
+        width: 100%;
+        margin-left: 0rem;
+
+    }
+    .card5-img {
+        height: 25ch;
+        margin-left: 1rem;
+    
+    }
+
+    .card5-text {
+        margin-left: 0.52rem;
+        margin-bottom: 6rem;
+    }
 
 
 }

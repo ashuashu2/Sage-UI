@@ -259,7 +259,6 @@ rem;
 
 
 
-/* ****************text area************ */
 
 
 
@@ -556,13 +555,13 @@ margin-right: 0rem;
      margin-top: 0srem;
  
      width: 100%;
+    display: none;
     }
     .link-items{
      font-size: 1rem;
      
     }
  #unorder{
-     visibility: hidden;
      display: none;
  
  }
@@ -595,6 +594,7 @@ margin-right: 0rem;
      
      color: black;
      margin-left:-4rem;
+     
      display:grid;
      gap: 20px;
      grid-template-columns: 80px  80px 80px;
@@ -736,8 +736,12 @@ margin-right: 0rem;
     
    
 }
+#avatar4-pic-big-div{
+    overflow: hidden;
+}
 .avatars4{
     height: 10ch;
+    
     margin: 0.5rem;
     margin-left: 8rem;
     border: 1px solid black;
@@ -763,7 +767,7 @@ margin-right: 0rem;
 
 }
 .avatar4-pic{
-    margin-left: -4rem;
+    margin-right: 0rem;
 
 }
 
