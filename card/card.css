@@ -724,6 +724,7 @@ body {
     }
 
     .card2-bigger-div {
+        height: 460px;
 
         margin-left: -1rem;
 
@@ -744,10 +745,10 @@ body {
         background-color: white;
         position: relative;
         width: 120%;
-        height: 30vh;
+        height: 36vh;
         margin-left: -1.2rem;
     }
-    
+   
     .card3-img {
         height: 20ch;
         margin-left: 0.3rem;
@@ -763,16 +764,15 @@ body {
     
     .card3-button1 {
      
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding: 0.43rem;
         cursor: pointer;
     
     }
     
     .card3-button2 {
-       
         font-size: 1.4rem;
-        padding: 0.43rem;
+        padding: 0.38rem;
         cursor: pointer;
     
     }
@@ -783,6 +783,7 @@ body {
     .card4 {
         margin-top: 5rem;
         margin-bottom: 5rem;
+        box-shadow: 3px 0px 40px 7px rgb(214, 135, 115);
     
         width: 110%;
         height: 35vh;
