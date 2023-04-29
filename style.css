@@ -273,8 +273,27 @@ margin-left: 1rem;
 
  
 @media screen and (max-width : 800px ) {
-  
+
     /* *******************  nav ************************** */
+
+
+
+    /* *******************  nav ************************** */
+
+    .component-text{
+        display: none;
+    }
+
+   #samicolon{
+    font-weight: bolder;
+    margin-left: 0.2rem;
+   }
+   #book-emoji{
+    margin-right: 0rem;
+    margin-top: -0.22rem;
+}
+  
+    
     .nav-div{
     
         background-color: black;
@@ -303,13 +322,7 @@ margin-left: 1rem;
     
     
     }
-    .component-text{
-        display: none;
-    }
-   #samicolon{
-    font-weight: bolder;
-    margin-left: 0.2rem;
-   }
+   
     .search-input{
        height: 2vh;
        width: 50%;
@@ -352,10 +365,7 @@ margin-left: 1rem;
         margin-right: 0.5rem;
         
     }
-    #book-emoji{
-        margin-right: 0rem;
-        margin-top: -0.22rem;
-    }
+    
    .nav-links{
        margin: 0.1rem;
        font-size: 0.5em;
