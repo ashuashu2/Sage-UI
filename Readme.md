@@ -3,7 +3,7 @@
 
 website of  project-componentLibrary
 
-[Typography](https://sage-ui.netlify.app/text.html) 
+[Typography](https://sage-ui.netlify.app/text%20utilities/text) 
 
 * headings
 * small text
@@ -14,18 +14,18 @@ website of  project-componentLibrary
 
   # Components Present
 
-[Alert](https://sage-ui.netlify.app/alert.html)  
+[Alert](https://sage-ui.netlify.app/alert/alert.html)  
   * Basic Alert
   * Alert With Link color
   
-[Avatar](https://sage-ui.netlify.app/avatar.html)  
+[Avatar](https://sage-ui.netlify.app/avatar/avatar.html)  
 * Avatar Images
 * Avatar With Content
 * Avatar Of Different Sizes
 * Avatar Of Profile
 
 
-[Badge](https://sage-ui.netlify.app/badge.html) 
+[Badge](https://sage-ui.netlify.app/badge/badge.html) 
 
 * Badge on Cart icon
 * Badge on Notification icon
@@ -34,7 +34,7 @@ website of  project-componentLibrary
 * Badge on Message icon
 
 
-[Button](https://sage-ui.netlify.app/button.html)  
+[Button](https://sage-ui.netlify.app/button/button.html)  
 * Basic Buttons
 * Diffrent Sizes Buttons
 * Links Buttons
@@ -43,23 +43,23 @@ website of  project-componentLibrary
 * Floating Action Button 
 
 
-[Card](https://sage-ui.netlify.app/card.html) 
+[Card](https://sage-ui.netlify.app/card/card.html) 
 * Card (With only text)
 * Card (With text overlay)
 * Horizontal cards
 * Vertical cards
 * Cards with shadow
 
-[Grid](https://sage-ui.netlify.app/simplified.html) 
+[Grid](https://sage-ui.netlify.app/simplified%20grid/simplified) 
 * Grid ( With tamplate column : Column)
 * Grid ( With tamplate area)
 * Grid ( With tamplate column : row)
 
-[Image](https://sage-ui.netlify.app/image.html) 
+[Image](https://sage-ui.netlify.app/image/image.html) 
 * Round And Sqaure Images
 * Responsive Image
 
-[Input](https://sage-ui.netlify.app/input.html) 
+[Input](https://sage-ui.netlify.app/input/input.html) 
 * Sign in Form 
 * Sign Up Form
 * Text Login  Inputs (Validation and error)
@@ -70,17 +70,17 @@ website of  project-componentLibrary
 * Notification List
 * Selection Box  List
 
-[Modal](https://sage-ui.netlify.app/modal.html) 
+[Modal](https://sage-ui.netlify.app/modal/modal.html) 
 * Simple Modal
 
-[Navigation](https://sage-ui.netlify.app/navigation.html) 
+[Navigation](https://sage-ui.netlify.app/navigation/navigation.html) 
 * Desktop(Navigation)
 
-[Rating](https://sage-ui.netlify.app/rating.html) (for eCommerce)
+[Rating](https://sage-ui.netlify.app/rating/rating.html)   (for eCommerce)
 * Rating For E-commerce
 
 
-[Slider](https://sage-ui.netlify.app/slider.html) 
+[Slider](https://sage-ui.netlify.app/slider/slider.html) 
 * Volume Slider
 * Image Slider  ( By using buttons)
 * Image  Automatic Slider (Using set timeOut )
@@ -88,7 +88,7 @@ website of  project-componentLibrary
 
 
 [Snackbar](https://sage-ui.netlify.app/snackbar.html)
-* [Toast/Notify](https://sage-ui.netlify.app/snackbar.html) 
+* [Toast/Notify](https://sage-ui.netlify.app/snackbar/snackbar.html) 
 * Basic Snackbars - Email -Add To Cart - Remove From Cart
 * Customization Snackbar 
 * Positioned snackbars
