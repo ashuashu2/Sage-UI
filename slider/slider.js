@@ -162,10 +162,14 @@ function newControler4(x) {
 
 
 
-var hamburgerButton = document.querySelector("#click-button")
-
+var hamburgerButton = document.querySelector("#hamburger-button")
+var linkButtons = document.querySelector(".link-items-li")
 var listItems = document.querySelector(".links-div")
 hamburgerButton.addEventListener("click", hamburgerButtonHandler)
+linkButtons.addEventListener("click", linkButtonsHandler)
+
+
+
 isOpen = false
 
 
@@ -188,4 +192,7 @@ function hamburgerButtonHandler() {
     listItems.classList.add("links-div")
 
   }
+}
+function linkButtonsHandler(){
+  isOpen = false
 }

@@ -83,9 +83,7 @@ body{
 /* *******************  nav ************************** */
 
 
-.footer{
-  display: none;
-}
+
 .nav-div{
     position: fixed;
     top: 0px;
@@ -179,8 +177,10 @@ rem;
 
 
 
-/* ********************       main div         ******************************* */
-
+/* ********************       main div         ******************************* */                                            
+ #hamburger-button{
+    display: none;
+    }
 
 .main-div{
     display: grid;
@@ -419,23 +419,49 @@ margin-right: 0rem;
  
  /* **************   list    ************* */
  
- 
- .links-div{
- margin-left: 3rem;  
- 
-     margin-top: 0srem;
- 
-     width: 100%;
+.links-div {
+        visibility: hidden;
+        margin-left: 0rem;
+
+        margin-top: 0rem;
+     
+        
+        
+
+        width: 0%;
+        transition: all 1s ease-in-out;
+        
+
+    }    .hamburger-list-item{
+        background-color: brown;
+        width: 120dvw;
+        z-index: 2;
+        height: 110%;
+        
+        margin-top: 0rem;
+        position: unset;
+        transition: width 0.5s ease-in-out;
+    
     }
-    .link-items{
+    #hamburger-button{
+        display: unset;
+        background-color: black;
+        border: 0;
+        color: white;
+        font-size: 1.6rem;
+        margin-top: -2.4rem;
+        cursor: pointer;
+
+    }
+    .link-items-li{
+        margin: 0.5rem;
+        font-size: 2rem;
+        list-style: none;
+    }.link-items{
      font-size: 1rem;
      
     }
- #unorder{
-     visibility: hidden;
-     display: none;
  
- }
     .list-view-button{
      
      background-color: black;
@@ -457,23 +483,7 @@ margin-right: 0rem;
  
  
      }
-      .footer{
-        display: unset;
-     }
-   .links2-div {
-     margin-top: 5rem;
-     
-     color: black;
-     margin-left:-4rem;
-     display:grid;
-     gap: 20px;
-     grid-template-columns: 80px  80px 80px;
-     
-   }
-   .links2-li{
-     color: black;
-     margin: 5rem;
-   }
+              
  
  
 

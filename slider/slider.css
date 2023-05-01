@@ -29,9 +29,7 @@ body {
 /* *******************  nav ************************** */
 
 
-.footer {
-    display: none;
-}
+        
 
 .nav-div {
     position: fixed;
@@ -137,8 +135,10 @@ body {
 
 
 
-/* ********************       main div         ******************************* */
-
+/* ********************       main div         ******************************* */                                            
+ #hamburger-button{
+    display: none;
+    }
 
 .main-div {
     display: grid;
@@ -497,7 +497,7 @@ body {
 
     .main-div{
         width: 100%;
-        margin-top: 0rem;
+         margin-top: 0rem;
         margin-left: -3rem;
     }
 
@@ -510,13 +510,15 @@ body {
         margin-left: 0rem;
 
         margin-top: 0rem;
+     
+        
         
 
         width: 0%;
         transition: all 1s ease-in-out;
         
 
-    }
+    }   
 
     .link-items {
         font-size: 1rem;
@@ -526,17 +528,30 @@ body {
         background-color: brown;
         width: 120dvw;
         z-index: 2;
-        height: 110vh;
+        height: 110%;
+        
         margin-top: 0rem;
         position: unset;
         transition: width 0.5s ease-in-out;
     
+    }
+    #hamburger-button{
+        display: unset;
+        background-color: black;
+        border: 0;
+        color: white;
+        font-size: 1.6rem;
+        margin-top: -2.4rem;
+        cursor: pointer;
+
     }
     .link-items-li{
         margin: 0.5rem;
         font-size: 2rem;
         list-style: none;
     }
+    
+   
 
    
 
@@ -563,25 +578,7 @@ body {
 
     }
 
-    .footer {
-        display: unset;
-    }
-
-    .links2-div {
-        margin-top: 5rem;
-
-        color: black;
-        margin-left: -4rem;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 80px 80px 80px;
-
-    }
-
-    .links2-li {
-        color: black;
-        margin: 5rem;
-    }
+            
 
 
 
